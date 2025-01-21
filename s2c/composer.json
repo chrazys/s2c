@@ -1,0 +1,11 @@
+{
+  "require": {
+    "google/apiclient": "^2.15",
+    "rlanvin/php-rrule": "^2.4"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.26"
+    }
+  }
+}

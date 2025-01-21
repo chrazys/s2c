@@ -1,0 +1,254 @@
+/************************************************************************************
+MOBILE NAVIGATION
+*************************************************************************************/
+/* header */
+#header{
+	height:auto;
+}
+
+/* reset absolute elements to static */
+#site-logo{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+/* site logo */
+#site-logo{
+	font-size:30px;
+	margin:0.65em 0.55em 0.65em 0;
+}
+/* site description */
+#site-description{
+	font-size:0.55em;
+}
+
+/* header widget */
+.header-widget{
+	position:static;
+	float:none;
+	text-align:left;
+	clear:both;
+	margin:0;
+}
+.header-widget .widget{
+	margin:0 0 10px;
+}
+
+/*
+MENU PANEL
+================================================ */
+.slideout-widgets-empty #headerwrap #menu-icon{
+	display:block;
+}
+/* mobile menu panel link */
+#mobile-menu-panel a{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* main nav */
+#main-nav{
+	position:static;
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:15px 0;
+	background:0;
+	border:0;
+	text-align:left;
+	float:none;
+	clear:both;
+	font-size:1em;
+}
+#headerwrap #main-nav li{
+	float:none;
+	display:block;
+	border:0;
+	background:0;
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+/* sub level */
+#headerwrap #main-nav ul{
+	position:static;
+	width:auto;
+	height:auto;
+	display:none;
+	border:0;
+	margin:0;
+	padding:0 0 0 1em;
+	background:0;
+	box-shadow:none;
+	opacity:1;
+	visibility:visible;
+	clear:both;
+	transform:none;
+}
+#headerwrap #main-nav ul li{
+	border:0;
+	background:0;
+	padding:0;
+	margin:0;
+	width:auto;
+	float:none;
+}
+
+/* menu link */
+#headerwrap #main-nav a,
+#headerwrap #main-nav ul a{
+	width:auto;
+	display:block;
+	border:0;
+	padding:.6em 0;
+	margin:0;
+	color:inherit;
+	font-size:100%;
+	font-weight:bold;
+	line-height:1.5em;
+	background:0;
+	text-decoration:none;
+	border-bottom:solid 1px rgba(0,0,0,.05);
+}
+#headerwrap #main-nav li:last-child > a{
+	border-right:none;
+}
+
+/* sub level menu link */
+#headerwrap #main-nav ul a{
+	font-weight:normal;
+	font-size:1em;
+}
+
+/* sub-menu icon */
+#main-nav .menu-item-has-children > a:after,
+#main-nav ul .menu-item-has-children > a:after{
+	display:none;
+}
+
+/* mega menu */
+#main-nav .has-mega-sub-menu .mega-sub-menu{
+	opacity:1;
+	transform:scale(1,1);
+}
+#main-nav .has-mega-sub-menu .mega-sub-menu,
+#main-nav .has-mega-column > .sub-menu{
+	background:0;
+	box-shadow:none;
+}
+#main-nav .has-mega-sub-menu .mega-sub-menu{
+	position:static;
+	display:block;
+	border:0;
+	min-height:0;
+	max-height:none;
+	margin:0;
+	width:auto;
+}
+#main-nav .has-sub-menu > a:after,
+#main-nav .has-mega-sub-menu > a:after,
+#main-nav .mega-sub-menu li a:after,
+#main-nav .mega-menu-posts{
+	display:none;
+}
+#main-nav .has-mega-sub-menu .mega-sub-menu ul{
+	float:none;
+}
+
+/* mega column */
+#main-nav .has-mega-column > .sub-menu > li{
+	font-size:1em;
+}
+#main-nav li.mega-link.loading:before,
+#main-nav .mega-sub-menu li:after{
+	display:none;
+}
+#main-nav .has-mega-column > .sub-menu .themify-widget-menu li{
+	border-bottom:solid 1px rgba(0,0,0,.05);
+	padding:0.5em 0;
+}
+#main-nav .has-mega-column > .sub-menu .themify-widget-menu li a{
+	border-bottom:none;
+	padding:0;
+}
+#main-nav .has-mega-column .widgettitle,
+#main-nav .has-mega-column > .sub-menu > li > a{
+	text-transform:none;
+}
+
+/* dropdown icon */
+#headerwrap #main-nav > li{
+	position:relative;
+}
+#main-nav .child-arrow{
+	padding:0 7px;
+	margin-left:7px;
+	display:block
+}
+#main-nav .menu-item-has-children > a{
+	position:relative;
+	padding-right:2.5em;
+}
+
+/*
+SEARCH FORM
+================================================ */
+#searchform-wrap{
+	margin:0 0 1em;
+}
+#headerwrap #searchform{
+	position:relative;
+	left:auto;
+	right:auto;
+	top:auto;
+	bottom:auto;
+	float:none;
+	clear:both;
+	padding:0;
+	width:auto;
+}
+#headerwrap #searchform #s{
+	width:100%;
+	float:none;
+	transition:none;
+	position:static;
+}
+#headerwrap #searchform #s:focus,
+#headerwrap #searchform #s:hover,
+#headerwrap #searchform .icon-search:hover + #s{
+	width:100%;
+	color:#000;
+}
+#headerwrap #searchform .icon-search:before{
+	padding:0;
+	right:10px;
+}
+
+/*
+SOCIAL WIDGET
+================================================ */
+.social-widget{
+	margin:0 0 1em;
+	position:static;
+	float:none;
+}
+.social-widget,
+#searchform-wrap,
+#main-nav{
+	display:none;
+}
+.sidemenu .social-widget,
+.sidemenu #searchform-wrap,
+.sidemenu #main-nav{
+	display:block;
+}
+
+/*
+SINGLE SPLIT LAYOUT
+================================================ */
+.single.single-split-layout .related-posts .post-image img{
+	height:auto;
+	min-height:initial;
+}

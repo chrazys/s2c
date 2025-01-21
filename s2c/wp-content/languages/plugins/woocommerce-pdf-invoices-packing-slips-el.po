@@ -1,0 +1,1095 @@
+# Translation of Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-07 10:36:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release)\n"
+
+#. translators: %s: document name
+#: includes/documents/abstract-wcpdf-order-document.php:489
+msgid "%s Date:"
+msgstr "%s Ημερομηνία"
+
+#: includes/documents/class-wcpdf-packing-slip.php:191
+msgid "Packing Slip Date:"
+msgstr "Ημερομηνία Δελτίου Αποστολής"
+
+#. translators: %s: document name
+#: includes/documents/abstract-wcpdf-order-document.php:483
+msgid "%s Number:"
+msgstr "%s Αριθμός"
+
+#: includes/documents/class-wcpdf-packing-slip.php:183
+msgid "Packing Slip Number:"
+msgstr "Αριθμός Δελτίου Αποστολής"
+
+#: includes/class-wcpdf-main.php:1220
+msgid "my account"
+msgstr "ο λογαριασμός μου"
+
+#: includes/class-wcpdf-admin.php:697
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: includes/class-wcpdf-admin.php:698
+msgid "Cancel"
+msgstr "Ακύρωση "
+
+#: includes/views/dompdf-status.php:274
+msgid "Value"
+msgstr "Τιμή"
+
+#: includes/class-wcpdf-admin.php:399
+msgid "Choose an email to send&hellip;"
+msgstr "Επιλέξτε ένα μήνυμα ηλεκτρονικού ταχυδρομείου για αποστολή..."
+
+#. translators: document title
+#: includes/class-wcpdf-admin.php:638
+msgid "Set %s number & date"
+msgstr "Ορισμός %s αριθμού και ημερομηνίας"
+
+#. translators: <a> tags
+#: woocommerce-pdf-invoices-packingslips.php:322
+msgid "If you cannot upgrade your PHP version, you can download %1$sthis addon%2$s to enable backwards compatibility with PHP5.6."
+msgstr "Εάν δεν μπορείτε να αναβαθμίσετε την έκδοση PHP, μπορείτε να κατεβάσετε %1$sαυτό το addon%2$s για να ενεργοποιήσετε τη συμβατότητα με το PHP5.6."
+
+#. translators: document title
+#: includes/class-wcpdf-main.php:1401
+msgid "Order %s Saved"
+msgstr "Η παραγγελία %s αποθηκεύτηκε"
+
+#: includes/class-wcpdf-admin.php:382
+msgid "PDF document data"
+msgstr "Δεδομένα εγγράφου PDF"
+
+#. translators: 1. plugin name, 2. directory path
+#: includes/class-wcpdf-main.php:734
+msgid "The %1$s directory %2$s couldn't be created or is not writable!"
+msgstr "Ο %1$s κατάλογος %2$s δεν ήταν δυνατόν να δημιουργηθεί ή δεν είναι εγγράψιμος!"
+
+#: includes/documents/class-wcpdf-invoice.php:246
+#: includes/documents/class-wcpdf-packing-slip.php:134
+msgid "Display customer notes"
+msgstr "Εμφάνιση σημειώσεων πελατών"
+
+#: woocommerce-pdf-invoices-packingslips.php:413
+msgid "Generate random temporary folder name"
+msgstr "Δημιουργία τυχαίου προσωρινού ονόματος φακέλου"
+
+#. translators: directory path
+#: includes/class-wcpdf-settings-debug.php:64
+msgid "Temporary folder moved to %s"
+msgstr "Ο προσωρινός φάκελος μετακινήθηκε στο %s"
+
+#: woocommerce-pdf-invoices-packingslips.php:412
+msgid "To protect them, you must click the button below."
+msgstr "Για να τα προστατεύσετε, πρέπει να κάνετε κλικ στο παρακάτω κουμπί."
+
+#: templates/Simple/invoice.php:133
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: includes/class-wcpdf-admin.php:527
+msgid "Notes (printed in the invoice):"
+msgstr "Σημειώσεις (τυπωμένες στο παραστατικό):"
+
+#. translators: directory path
+#: woocommerce-pdf-invoices-packingslips.php:411
+msgid "The PDF files in %s are not currently protected due to your site running on <strong>NGINX</strong>."
+msgstr "Τα αρχεία PDF στο %s δεν προστατεύονται προς το παρόν λόγω της λειτουργίας του ιστοτόπου σας σε <strong>NGINX</strong>."
+
+#: includes/documents/class-wcpdf-invoice.php:215
+#: includes/views/setup-wizard/display-options.php:21
+msgid "Only when different from billing address"
+msgstr "Μόνο όταν διαφέρει από τη διεύθυνση χρέωσης"
+
+#: includes/documents/class-wcpdf-packing-slip.php:103
+msgid "Only when different from shipping address"
+msgstr "Μόνο όταν διαφέρει από τη διεύθυνση αποστολής"
+
+#: includes/class-wcpdf-settings-documents.php:44
+msgid "untitled"
+msgstr "χωρίς τίτλο"
+
+#: includes/class-wcpdf-settings-general.php:141
+msgid "Logo height"
+msgstr "Ύψος λογότυπου"
+
+#. translators: 1. credit note title, 2. refund id
+#: includes/documents/abstract-wcpdf-order-document.php:380
+msgid "%s was regenerated"
+msgstr "%s επαναδημιουργήθηκε"
+
+#: includes/class-wcpdf-assets.php:85
+msgid "Are you sure you want to regenerate this document? This will make the document reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+msgstr "Είστε βέβαιοι ότι θέλετε να αναδημιουργήσετε αυτό το έγγραφο; Αυτό θα κάνει το έγγραφο να αντικατοπτρίζει τις πιο πρόσφατες ρυθμίσεις (όπως κείμενο υποσέλιδου, όνομα εγγράφου κ.λπ.) αντί να χρησιμοποιεί ιστορικές ρυθμίσεις."
+
+#. translators: 1. credit note title, 2. refund id
+#: includes/documents/abstract-wcpdf-order-document.php:380
+msgid "%1$s (refund #%2$s) was regenerated."
+msgstr "%1$s (η επιστροφή #%2$s) επαναδημιουργήθηκε."
+
+#: includes/documents/class-wcpdf-invoice.php:290
+msgid "More information"
+msgstr "Περισσότερες πληροφορίες"
+
+#: includes/documents/class-wcpdf-invoice.php:288
+msgid "Warning!"
+msgstr "Προειδοποίηση!"
+
+#: includes/documents/class-wcpdf-invoice.php:284
+#: includes/views/setup-wizard/display-options.php:82
+msgid "Order Number"
+msgstr "Αριθμός Παραγγελίας"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:1210
+#: includes/documents/class-wcpdf-invoice.php:268
+#: includes/views/setup-wizard/display-options.php:61
+msgid "Order Date"
+msgstr "Ημερομηνία Παραγγελίας"
+
+#: includes/documents/class-wcpdf-invoice.php:214
+#: includes/documents/class-wcpdf-invoice.php:266
+#: includes/documents/class-wcpdf-invoice.php:282
+#: includes/documents/class-wcpdf-packing-slip.php:102
+#: includes/views/dompdf-status.php:138 includes/views/dompdf-status.php:166
+#: includes/views/dompdf-status.php:167
+#: includes/views/setup-wizard/display-options.php:20
+#: includes/views/setup-wizard/display-options.php:59
+#: includes/views/setup-wizard/display-options.php:80
+msgid "No"
+msgstr "Όχι"
+
+#: includes/documents/class-wcpdf-invoice.php:289
+msgid "Using the Order Number as invoice number is not recommended as this may lead to gaps in the invoice number sequence (even when order numbers are sequential)."
+msgstr "Η χρήση του αριθμού παραγγελίας ως αριθμού τιμολογίου δεν συνιστάται, καθώς αυτό μπορεί να οδηγήσει σε κενά στην ακολουθία αριθμών τιμολογίου (ακόμη και όταν οι αριθμοί παραγγελίας είναι διαδοχικοί)."
+
+#: includes/class-wcpdf-setup-wizard.php:69
+#: includes/views/setup-wizard/show-action-buttons.php:3
+msgid "Action buttons"
+msgstr "Κουμπιά ενέργειας"
+
+#: includes/views/setup-wizard/show-action-buttons.php:5
+msgid "(You can always change this setting later via the Screen Options menu)"
+msgstr "(Μπορείτε πάντα να αλλάξετε αυτήν τη ρύθμιση αργότερα μέσω του μενού \"Επιλογές οθόνης\" )"
+
+#: includes/documents/class-wcpdf-invoice.php:192
+msgid "Disable for:"
+msgstr "Απενεργοποίηση για:"
+
+#: includes/documents/class-wcpdf-invoice.php:201
+msgid "Select one or more statuses"
+msgstr "Επιλογή μίας ή περισσότερων καταστάσεις"
+
+#: includes/views/setup-wizard/show-action-buttons.php:18
+msgid "Show action buttons"
+msgstr "Εμφάνιση κουμπιών ενέργειας"
+
+#: includes/class-wcpdf-settings-debug.php:426
+msgid "Allow guest access"
+msgstr "Να επιτρέπονται οι επισκέψεις επισκεπτών"
+
+#: includes/class-wcpdf-settings-general.php:96
+msgid "<strong>Note:</strong> invoice numbers and dates are not affected by this setting and will still be generated."
+msgstr "<strong>Σημείωση:</strong> Οι αριθμοί τιμολογίου και οι ημερομηνίες δεν επηρεάζονται από αυτήν τη ρύθμιση και θα εξακολουθούν να δημιουργούνται."
+
+#: includes/class-wcpdf-settings-general.php:90
+msgid "Test mode"
+msgstr "Δοκιμαστική λειτουργία"
+
+#: includes/documents/class-wcpdf-invoice.php:458
+msgid "Always use most current settings"
+msgstr "Πάντα χρησιμοποιείτε τις πιο τρέχουσες ρυθμίσεις"
+
+#: includes/documents/class-wcpdf-invoice.php:466
+msgid "<strong>Caution:</strong> enabling this will also mean that if you change your company name or address in the future, previously generated documents will also be affected."
+msgstr "<strong>Προσοχή:</strong> ενεργοποιώντας αυτή την επιλογή, αν αλλάξετε το όνομα ή τη διεύθυνση της εταιρείας σας στο μέλλον, θα επηρεαστούν και τα έγγραφα που δημιουργήθηκαν προηγουμένως."
+
+#: includes/documents/class-wcpdf-invoice.php:464
+msgid "When enabled, the document will always reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+msgstr "Όταν είναι ενεργοποιημένο, το έγγραφο θα αντικατοπτρίζει πάντα τις πιο πρόσφατες ρυθμίσεις (όπως το κείμενο υποσέλιδου, το όνομα εγγράφου κ.λπ.) αντί να χρησιμοποιεί ιστορικές ρυθμίσεις."
+
+#: includes/class-wcpdf-admin.php:147
+msgid "I am the wizard"
+msgstr "Είμαι ο οδηγός"
+
+#: includes/class-wcpdf-admin.php:147
+#: includes/class-wcpdf-settings-debug.php:161
+#: includes/class-wcpdf-settings-debug.php:163
+msgid "Run the Setup Wizard"
+msgstr "Εκτέλεση οδηγού ρύθμισης"
+
+#: includes/class-wcpdf-assets.php:84
+msgid "Are you sure you want to delete this document? This cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το έγγραφο; Η ενέργεια αυτή δε μπορεί να αναιρεθεί."
+
+#: includes/wcpdf-functions.php:223
+msgid "Error creating PDF, please contact the site owner."
+msgstr "Σφλάλμα κατά τη δηιουργία αρχείου PDF, παρακαλώ επικοινωνήστε με τον κάτοχο του ιστοτόπου."
+
+#: includes/class-wcpdf-admin.php:146
+msgid "Jumpstart the plugin by following our wizard!"
+msgstr "Ξεκίνα τη χρήση του πρόσθετου ακολουθώντας τον οδηγό μας!"
+
+#: includes/class-wcpdf-admin.php:260 includes/class-wcpdf-main.php:1112
+#: includes/documents/abstract-wcpdf-order-document-methods.php:1209
+#: includes/documents/class-wcpdf-invoice.php:267
+#: includes/views/setup-wizard/display-options.php:60
+msgid "Invoice Date"
+msgstr "Ημερομηνία παραστατικού"
+
+#. translators: number of days
+#: includes/class-wcpdf-settings-debug.php:483
+msgid "every %s days"
+msgstr "κάθε %s ημέρες"
+
+#: includes/class-wcpdf-settings-debug.php:476
+msgid "Enable automatic cleanup"
+msgstr "Ενεργοποίηση αυτόματου καθαρισμού"
+
+#: includes/class-wcpdf-settings-debug.php:487
+msgid "Automatically clean up PDF files stored in the temporary folder (used for email attachments)"
+msgstr "Αυτόματος καθαρισμός των pdf που είναι αποθηκευμένα προσωρινά (χρησιμοποιήθηκαν σαν συνημμένα στα email)"
+
+#: includes/class-wcpdf-setup-wizard.php:57
+msgid "Attachments"
+msgstr "Συνημμένα"
+
+#: includes/class-wcpdf-setup-wizard.php:191
+msgid "Next"
+msgstr "Επόμενο"
+
+#: includes/class-wcpdf-setup-wizard.php:186
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: includes/class-wcpdf-setup-wizard.php:53
+#: includes/views/setup-wizard/logo.php:3
+msgid "Your logo"
+msgstr "Το λογότυπό σας"
+
+#: languages/strings.php:7
+msgid "Send email"
+msgstr "Αποστολή email"
+
+#: includes/class-wcpdf-admin.php:417
+msgid "Save order & send email"
+msgstr "Αποθήκευση παραγγελίας & αποστολή email"
+
+#: includes/class-wcpdf-admin.php:361
+msgid "Send order email"
+msgstr "Αποστολή email παραγγελίας"
+
+#: includes/class-wcpdf-setup-wizard.php:61
+#: includes/views/setup-wizard/display-options.php:3
+msgid "Display options"
+msgstr "Επιλογές εμφάνισης"
+
+#: includes/class-wcpdf-setup-wizard.php:194
+msgid "Finish"
+msgstr "Ολοκλήρωση"
+
+#: includes/class-wcpdf-setup-wizard.php:73
+msgid "Ready!"
+msgstr "Έτοιμοι!"
+
+#: includes/class-wcpdf-setup-wizard.php:192
+msgid "Skip this step"
+msgstr "Παράλειψη αυτού του βήματος"
+
+#: includes/views/setup-wizard/good-to-go.php:6
+msgid "Happy selling!"
+msgstr "Καλές πωλήσεις!"
+
+#: includes/views/setup-wizard/logo.php:4
+msgid "Set the header image that will display on your invoice."
+msgstr "Βάλτε το logo σας το οποίο θα εμφανίζεται στο τιμολόγιό σας."
+
+#: includes/views/setup-wizard/shop-name.php:4
+msgid "Lets quickly setup your invoice. Please enter the name and address of your shop in the fields on the right."
+msgstr "Ας φτιάξουμε το τιμολόγιό σας. Εισάγετε την επωνυμία και τη διεύθυνση της επιχείρησής σας στα πεδία."
+
+#: includes/views/setup-wizard/good-to-go.php:5
+msgid "Invoices & Packing Slips"
+msgstr "Τιμολόγια και Συσκευασίες"
+
+#: includes/views/setup-wizard/good-to-go.php:3
+msgid "You are good to go!"
+msgstr "Είστε έτοιμος!"
+
+#: includes/views/setup-wizard/good-to-go.php:4
+msgid "If you have any questions please have a look at our documentation:"
+msgstr "Εάν έχετε οποιαδήποτε ερώτηση, δείτε την τεκμηρίωση:"
+
+#: includes/views/setup-wizard/display-options.php:4
+msgid "Select some additional display options for your invoice."
+msgstr "Επιλέξτε πρόσθετες επιλογές εμφάνισης για το τιμολόγιό σας."
+
+#: includes/views/setup-wizard/shop-name.php:3
+msgid "Enter your shop name"
+msgstr "Εισάγετε την επωνυμία του καταστήματός σας"
+
+#: includes/views/setup-wizard/paper-format.php:4
+msgid "Select the paper format for your invoice."
+msgstr "Επιλέξτε τη διάσταση του χαρτιού για το τιμολόγιό σας."
+
+#: includes/class-wcpdf-setup-wizard.php:65
+#: includes/views/setup-wizard/paper-format.php:3
+msgid "Paper format"
+msgstr "Μέγεθος χαρτιού"
+
+#: includes/views/setup-wizard/attach-to.php:4
+msgid "Select to which emails you would like to attach your invoice."
+msgstr "Επιλέξτε σε ποια μηνύματα ηλεκτρονικού ταχυδρομείου θα θέλετε να επισυνάψετε στο παραστατικό σας."
+
+#. translators: %s: email title
+#: includes/class-wcpdf-admin.php:847
+msgid "%s email notification manually sent."
+msgstr "Το email %s εστάλη χειροκίνητα."
+
+#. translators: <a> tags
+#: includes/views/attachment-settings-hint.php:11
+msgid "It looks like you haven't setup any email attachments yet, check the settings under <b>%1$sDocuments > Invoice%2$s</b>"
+msgstr "Φαίνεται πως δεν έχετε ρυθμίσει κανένα συνημμένο ηλεκτρονικού ταχυδρομείου ακόμη, ελέγξτε τις ρυθμίσεις στο <b>%1$sΈγγραφα > Τιμολόγιο%2$s</b>"
+
+#: includes/class-wcpdf-admin.php:104
+msgid "Already did!"
+msgstr "Το έκανα ήδη!"
+
+#: includes/class-wcpdf-admin.php:103
+msgid "Yes you deserve it!"
+msgstr "Ναι! Το δικαιούσαι!"
+
+#. translators: rounded count
+#: includes/class-wcpdf-admin.php:100
+msgid "Wow, you have created more than %d invoices with our plugin!"
+msgstr "Ουάου! Έχετε ήδη δημιουργήσει περισσότερα από %d παραστατικά με το πρόσθετό μας!"
+
+#: includes/class-wcpdf-admin.php:105
+msgid "Actually, I have a complaint..."
+msgstr "Να πω την αλήθεια, έχω κάποιο παράπονο..."
+
+#: includes/class-wcpdf-admin.php:101
+msgid "It would mean a lot to us if you would quickly give our plugin a 5-star rating. Help us spread the word and boost our motivation!"
+msgstr "Θα σήμαινε πολλά για εμάς αν δίνατε μία γρήγορη βαθμολογία 5 αστέρων για το πρόσθετό μας. Βοηθήστε μας να διαδώσουμε τον λόγο μας και ενισχύστε τα κίνητρά μας!"
+
+#: includes/class-wcpdf-settings-debug.php:155
+msgid "Legacy settings deleted!"
+msgstr "Οι παλαιές ρυθμίσεις διαγράφηκαν!"
+
+#: includes/class-wcpdf-settings-debug.php:450
+msgid "Calculate document numbers (slow)"
+msgstr "Υπολογισμός αριθμών εγγράφων (αργό)"
+
+#. translators: database row value
+#: includes/class-wcpdf-settings.php:150
+msgid "<strong>Warning!</strong> Your database has an AUTO_INCREMENT step size of %d, your invoice numbers may not be sequential. Enable the 'Calculate document numbers (slow)' setting in the Status tab to use an alternate method."
+msgstr "<strong>Προειδοποίηση!</strong> Η βάση δεδομένων σας αυξάνεται κατά AUTO_INCREMENT%s και οι αριθμοί τιμολογίων σας ενδέχεται να μην είναι διαδοχικοί. Ενεργοποιήστε τη ρύθμιση \"Υπολογισμός αριθμών εγγράφων (αργή)\" στην καρτέλα \"Κατάσταση\" για να χρησιμοποιήσετε μια εναλλακτική μέθοδο."
+
+#: includes/class-wcpdf-settings-debug.php:456
+msgid "Document numbers (such as invoice numbers) are generated using AUTO_INCREMENT by default. Use this setting if your database auto increments with more than 1."
+msgstr "Οι αριθμοί των εγγράφων (όπως οι αριθμοί τιμολογίων) παράγονται χρησιμοποιώντας AUTO_INCREMENT από προεπιλογή. Χρησιμοποιήστε αυτήν τη ρύθμιση εάν η βάση σας αυξάνει αυτόματα με αριθμό εγγράφου μεγαλύτερο από 1."
+
+#: includes/class-wcpdf-settings-general.php:114
+msgid "Enable font subsetting"
+msgstr "Ενεργοποίηση υποσυνόλου γραμματοσειράς"
+
+#: includes/class-wcpdf-settings-debug.php:134
+msgid "Delete legacy (1.X) settings"
+msgstr "Διαγραφή ρυθμίσεων Legacy (1.X)"
+
+#: includes/class-wcpdf-settings-general.php:120
+msgid "Font subsetting can reduce file size by only including the characters that are used in the PDF, but limits the ability to edit PDF files later. Recommended if you're using an Asian font."
+msgstr "Το υποσύνολο γραμματοσειράς μπορεί να μειώσει το μέγεθος του αρχείου με τη συμπερίληψη μόνο των χαρακτήρων που χρησιμοποιούνται στο PDF, αλλά περιορίζει την ικανότητα επεξεργασίας των αρχείων PDF αργότερα. Προτείνεται αν χρησιμοποιείτε μία Ασιατική γραμματοσειρά."
+
+#: includes/class-wcpdf-main.php:1072
+msgid "Nothing to delete!"
+msgstr "Τίποτα για διαγραφή!"
+
+#: includes/class-wcpdf-settings-debug.php:113
+#: includes/class-wcpdf-settings-debug.php:118
+msgid "Remove temporary files"
+msgstr "Διαγραφή προσωρινών αρχείων"
+
+#. translators: file count
+#: includes/class-wcpdf-main.php:1068
+msgid "Successfully deleted %d files!"
+msgstr "Διαγράψατε επιτυχώς %d αρχεία!"
+
+#. translators: 1,2. file count
+#: includes/class-wcpdf-main.php:1064
+msgid "Unable to delete %1$d files! (deleted %2$d)"
+msgstr "Αδυναμία διαγραφής %1$d αρχείων! (διαγράφηκαν %2$d)"
+
+#: includes/class-wcpdf-admin.php:104 includes/class-wcpdf-main.php:736
+#: includes/views/attachment-settings-hint.php:12
+#: includes/views/wcpdf-extensions.php:121
+#: woocommerce-pdf-invoices-packingslips.php:414
+#: woocommerce-pdf-invoices-packingslips.php:473
+#: woocommerce-pdf-invoices-packingslips.php:511
+msgid "Hide this message"
+msgstr "Κρύψε αυτό το μήνυμα"
+
+#: includes/views/wcpdf-extensions.php:71
+msgid "<b>Super versatile!</b> Can be used for any kind of reminder email (review reminders, repeat purchases)"
+msgstr "<b>Εξαιρετικά ευέλικτο!</b> Μπορεί να χρησιμοποιηθεί για οποιοδήποτε είδος email υπενθύμισης (υπενθυμίσεις για αποστολή κριτικής, επανάληψη αγορών)"
+
+#: includes/views/wcpdf-extensions.php:70
+msgid "Fully <b>WPML Compatible</b> – emails will be automatically sent in the order language."
+msgstr "Πλήρως <b>συμβατό με WPML</b> - τα email θα αποστέλλονται αυτόματα στη γλώσσα της παραγγελίας."
+
+#: includes/views/wcpdf-extensions.php:74
+msgid "Get WooCommerce Smart Reminder Emails"
+msgstr "Πάρε το WooCommerce Smart Reminder Emails"
+
+#: includes/views/wcpdf-extensions.php:72
+msgid "Integrates seamlessly with the PDF Invoices & Packing Slips plugin"
+msgstr "Συνεργάζεται χωρίς προβλήματα με το πρόσθετο PDF Invoices & Packing Slips"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:904
+msgid "(includes %s)"
+msgstr "(περιλαμβάνει %s)"
+
+#: includes/class-wcpdf-settings.php:110
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: includes/class-wcpdf-settings.php:166
+msgid "Documents"
+msgstr "Έγγραφα"
+
+#: includes/documents/class-wcpdf-invoice.php:167
+#: includes/documents/class-wcpdf-packing-slip.php:84
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: includes/legacy/class-wcpdf-legacy.php:72
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: includes/class-wcpdf-settings-callbacks.php:482
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: includes/class-wcpdf-settings.php:111
+msgid "Support Forum"
+msgstr "Φόρουμ υποστήριξης"
+
+#: includes/class-wcpdf-settings-debug.php:76
+msgid "Reinstall fonts"
+msgstr "Επανεγκατάσταση γραμματοσειρών"
+
+#: includes/documents/class-wcpdf-invoice.php:309
+msgid "Number format"
+msgstr "Μορφή αριθμού"
+
+#: includes/documents/class-wcpdf-invoice.php:178
+#: includes/documents/class-wcpdf-packing-slip.php:159
+msgid "Attach to:"
+msgstr "Σύναψη στο:"
+
+#: includes/class-wcpdf-settings-debug.php:85
+msgid "Fonts reinstalled!"
+msgstr "Οι γραμματοσειρές επανεγκαταστάθηκαν!"
+
+#: includes/legacy/class-wcpdf-legacy.php:76
+msgid "The following function was called"
+msgstr "Η ακόλουθη συνάρτηση κλήθηκε"
+
+#: includes/documents/abstract-wcpdf-order-document.php:1034
+msgid "Admin email"
+msgstr "Email διαχειριστή"
+
+#: includes/views/wcpdf-extensions.php:12
+msgid "Premium PDF Invoice bundle: Everything you need for a perfect invoicing system"
+msgstr "Premium πακέτο PDF Invoice: Ό,τι χρειάζεστε για ένα τέλειο σύστημα τιμολόγησης"
+
+#: includes/documents/class-wcpdf-invoice.php:349
+msgid "Reset invoice number yearly"
+msgstr "Επαναφορά αριθμού τιμολογίου κάθε χρόνο"
+
+#: includes/documents/class-wcpdf-invoice.php:479
+msgid "Invoice numbers are created by a third-party extension."
+msgstr "Οι αριθμοί των τιμολογίων δημιουργούνται από μια εφαρμογή τρίτου."
+
+#: includes/documents/class-wcpdf-invoice.php:303
+msgid "This is the number that will be used for the next document. By default, numbering starts from 1 and increases for every new document. Note that if you override this and set it lower than the current/highest number, this could create duplicate numbers!"
+msgstr "Αυτός είναι ο αριθμός που θα χρησιμοποιηθεί για το επόμενο έγγραφο. Από προεπιλογή, η αρίθμηση ξεκινάει από το 1 και αυξάνεται για κάθε νέο έγγραφο. Προσοχή, αν παρακάμψετε αυτη τη ρυθμιση και δώσετε τιμή αρίθμησης χαμηλότερη από την τρέχουσα/μεγαλύτερο αριθμό, αυτό θα μπορούσε να οδηγήσει σε δύο διαφορετικά έγγραφα με τον ίδια αριθμό!"
+
+#: includes/documents/class-wcpdf-invoice.php:275
+msgid "Display invoice number"
+msgstr "Εμφάνιση αριθμού τιμολογίου"
+
+#: includes/documents/abstract-wcpdf-order-document.php:1037
+msgid "Manual email"
+msgstr "Χειροκίνητη αποστολή email"
+
+#: includes/class-wcpdf-settings-general.php:108
+msgid "Enable this if your currency symbol is not displaying properly"
+msgstr "Ενεργοποιήστε αυτή την επιλογή, εάν το σύμβολο του νομίσματός σας δεν εμφανίζεται σωστά"
+
+#: includes/views/wcpdf-extensions.php:29
+#: includes/views/wcpdf-extensions.php:53
+msgid "Upload automatically to dropbox"
+msgstr "Αυτόματο ανέβασμα στο dropbox"
+
+#: includes/views/wcpdf-extensions.php:15
+msgid "Professional features:"
+msgstr "Professional χαρακτηριστικά:"
+
+#: includes/class-wcpdf-main.php:297
+msgid "You haven't selected any orders"
+msgstr "Δεν έχετε επιλέξει παραγγελίες"
+
+#: includes/views/wcpdf-extensions.php:69
+msgid "Configure the exact requirements for sending an email (time after order, order status, payment method)"
+msgstr "Ρυθμίστε τις ακριβείς απαιτήσεις για την αποστολή ενός email (χρόνος μετά την παραγγελία, κατάσταση παραγγελίας, τρόπος πληρωμής)"
+
+#: includes/views/wcpdf-extensions.php:65
+msgid "WooCommerce Smart Reminder emails"
+msgstr "WooCommerce Smart Reminder emails"
+
+#. translators: link
+#: includes/documents/class-wcpdf-invoice.php:482
+msgid "Configure it <a href=\"%s\">here</a>."
+msgstr "Ρύθμισέ το <a href=\"%s\">εδώ</a>."
+
+#: includes/views/wcpdf-extensions.php:67
+msgid "<b>Completely automatic</b> scheduled emails"
+msgstr "<b>Πλήρως αυτοματοποιημένα</b> και προγραμματισμένα emails"
+
+#: includes/legacy/class-wcpdf-legacy-document.php:28
+msgid "Legacy Document"
+msgstr "Έγγραφο Legacy"
+
+#. translators: document type
+#: includes/class-wcpdf-main.php:424
+msgid "Document of type '%s' for the selected order(s) could not be generated"
+msgstr "Δε μπορεί να δημιουργηθεί έγγραφο τύπου '%s' για την επιλεγμένη(ες) παραγγελία(ίες)"
+
+#: includes/class-wcpdf-settings-general.php:102
+msgid "Extended currency symbol support"
+msgstr "Επιπλέον υποστήριξη συμβόλων νομισμάτων"
+
+#: includes/views/wcpdf-extensions.php:63
+msgid "Automatically send payment reminders to your customers"
+msgstr "Αυτόματη αποστολή υπενθύμισης πληρωμών στους πελάτες σας"
+
+#: includes/views/wcpdf-extensions.php:68
+msgid "<b>Rich text editor</b> for the email text, including placeholders for data from the order (name, order total, etc)"
+msgstr "<b>Επεξεργαστής εμπλουτισμένου κειμένου</b> για το κείμενο του email, με συμπεριλαμβανόμενες θέσεις υπόδειξης για δεδομένα της παραγγελίας (όνομα, σύνολο παραγγελίας, κλπ)"
+
+#: includes/legacy/class-wcpdf-legacy.php:73
+msgid "An outdated template or action hook was used to generate the PDF. Legacy mode has been activated, please try again by reloading this page."
+msgstr "Ένα απαρχαιωμένο πρότυπο ή μία απαρχαιωμένη ενέργεια αγκίστρωσης χρησιμοποιήθηκε για τη δημιουργία του PDF. Η λειτουργία συμβατότητας έχει ενεργοποιηθεί, παρακαλούμε, δοκιμάστε ξανά ανανεώνοντας αυτή τη σελίδα."
+
+#: includes/class-wcpdf-settings-debug.php:469
+msgid "<b>Caution!</b> This setting may reveal errors (from other plugins) in other places on your site too, therefor this is not recommended to leave it enabled on live sites."
+msgstr "<b>Προσοχή!</b> Αυτή η ρύθμιση μπορεί να εμφανίσει σφάλματα (από άλλα πρόσθετα) και σε άλλα μέρη του ιστότοπού σας, οπότε αυτό δεν προτείνεται να το αφήσετε ενεργοποιημένο στους ιστότοπους."
+
+#: includes/class-wcpdf-settings-debug.php:408
+msgid "Legacy mode ensures compatibility with templates and filters from previous versions."
+msgstr "Η λειτουργία συμβατότητας εξασφαλίζει συμβατότητα με τα πρότυπα και τα φίλτρα των προηγούμενων εκδόσεων."
+
+#: includes/class-wcpdf-settings-debug.php:402
+msgid "Legacy mode"
+msgstr "Λειτουργία συμβατότητας"
+
+#: includes/views/dompdf-status.php:273 templates/Simple/invoice.php:111
+#: templates/Simple/packing-slip.php:98
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: includes/class-wcpdf-settings-general.php:126
+msgid "Shop header/logo"
+msgstr "Λογότυπο/Επικεφαλίδα καταστήματος"
+
+#: includes/class-wcpdf-settings-general.php:133
+#: includes/views/setup-wizard/logo.php:14
+msgid "Set image"
+msgstr "Ορίστε εικόνα"
+
+#: includes/class-wcpdf-settings-general.php:132
+#: includes/views/setup-wizard/logo.php:13
+msgid "Select or upload your invoice header/logo"
+msgstr "Επιλέξτε ή \"ανεβάστε\" την επικεφαλίδα/λογότυπο του παραστατικού"
+
+#: includes/class-wcpdf-settings-general.php:134
+#: includes/views/setup-wizard/logo.php:15
+msgid "Remove image"
+msgstr "Αφαίρεση εικόνας"
+
+#: includes/class-wcpdf-settings-general.php:155
+#: includes/class-wcpdf-setup-wizard.php:49
+msgid "Shop Name"
+msgstr "Όνομα καταστήματος"
+
+#: includes/class-wcpdf-settings-general.php:167
+msgid "Shop Address"
+msgstr "Διεύθυνση καταστήματος"
+
+#: includes/class-wcpdf-settings-general.php:182
+msgid "Footer: terms & conditions, policies, etc."
+msgstr "Υποσημείωση : όροι, προϋποθέσεις , πολιτικές , κ.λπ."
+
+#: includes/documents/class-wcpdf-invoice.php:207
+msgid "Display shipping address"
+msgstr "Απεικόνιση διεύθυνσης αποστολής"
+
+#: includes/documents/class-wcpdf-invoice.php:224
+#: includes/documents/class-wcpdf-packing-slip.php:112
+msgid "Display email address"
+msgstr "Απεικόνιση διεύθυνσης email"
+
+#: includes/documents/class-wcpdf-invoice.php:235
+#: includes/documents/class-wcpdf-packing-slip.php:123
+msgid "Display phone number"
+msgstr "Απεικόνιση αριθμού τηλεφώνου"
+
+#: includes/documents/class-wcpdf-invoice.php:259
+msgid "Display invoice date"
+msgstr "Απεικόνιση ημερομηνίας έκδοσης παραστατικού"
+
+#: includes/documents/class-wcpdf-invoice.php:297
+msgid "Next invoice number (without prefix/suffix etc.)"
+msgstr "Επόμενος αριθμός τιμολογίου (χωρίς πρόθεμα / επίθημα , κλπ )"
+
+#: includes/documents/class-wcpdf-invoice.php:28
+#: includes/documents/class-wcpdf-invoice.php:52
+#: includes/legacy/class-wcpdf-legacy-functions.php:18
+#: includes/views/wcpdf-settings-page.php:112
+msgid "Invoice"
+msgstr "Τιμολόγιο"
+
+#: includes/documents/class-wcpdf-invoice.php:317
+msgid "Prefix"
+msgstr "Πρόθεμα"
+
+#: includes/documents/class-wcpdf-invoice.php:326
+msgid "Suffix"
+msgstr "Κατάληξη"
+
+#: includes/documents/class-wcpdf-packing-slip.php:28
+#: includes/documents/class-wcpdf-packing-slip.php:37
+#: includes/legacy/class-wcpdf-legacy-functions.php:21
+msgid "Packing Slip"
+msgstr "Δελτίο Αποστολής"
+
+#: includes/documents/class-wcpdf-packing-slip.php:95
+msgid "Display billing address"
+msgstr "Απεικόνιση διεύθυνσης χρέωσης"
+
+#: includes/class-wcpdf-settings-general.php:197
+msgid "Extra template fields"
+msgstr "Επιπλέον πεδία πρότυπου"
+
+#: includes/class-wcpdf-settings-general.php:203
+msgid "Extra field 1"
+msgstr "Επιπλέον πεδίο 1"
+
+#: includes/class-wcpdf-settings-general.php:211
+msgid "This is footer column 1 in the <i>Modern (Premium)</i> template"
+msgstr "Αυτη είναι η στήλη 1 στην υποσημείωση εντος του <i>Modern (Premium) </i> template"
+
+#: includes/class-wcpdf-settings-general.php:218
+msgid "Extra field 2"
+msgstr "Επιπλέον πεδίο 2"
+
+#: includes/class-wcpdf-settings-general.php:226
+msgid "This is footer column 2 in the <i>Modern (Premium)</i> template"
+msgstr "Αυτη είναι η στήλη 2 στην υποσημείωση εντος του <i>Modern (Premium) </i> template"
+
+#: includes/class-wcpdf-settings-general.php:233
+msgid "Extra field 3"
+msgstr "Επιπλέον πεδίο 3"
+
+#: includes/class-wcpdf-settings-debug.php:462
+msgid "Enable debug output"
+msgstr "Ενεργοποίηση αποτελεσμάτων κατα τον εντοπισμό σφαλμάτων"
+
+#: includes/class-wcpdf-settings-debug.php:468
+msgid "Enable this option to output plugin errors if you're getting a blank page or other PDF generation issues"
+msgstr "Ενεργοποιήστε αυτή την επιλογή για να εξάγονται (plugin) σφάλματα, σε περίπτωση που σας επιστρέφει κενή σελίδα, ή αντιμετωπίζετε άλλα σφάλματα κατα την δημιουργία των PDF"
+
+#: includes/class-wcpdf-settings-debug.php:493
+msgid "Output to HTML"
+msgstr "Εξαγωγή σε HTML"
+
+#: includes/class-wcpdf-settings-debug.php:499
+msgid "Send the template output as HTML to the browser instead of creating a PDF."
+msgstr "Αποστολή πρoτύπου σε μορφή HTML στο πρόγραμμα περιήγησης, αντί για δημιουργία αρχείου PDF"
+
+#: includes/class-wcpdf-settings-callbacks.php:426
+msgid "Image resolution"
+msgstr "Ανάλυση εικόνας"
+
+#: includes/class-wcpdf-settings-callbacks.php:27
+msgid "<b>Warning!</b> The settings below are meant for debugging/development only. Do not use them on a live website!"
+msgstr "<b>Warning!</b> Οι παρακάτω ρυθμίσεις προορίζονται μόνο για επίλυση σφαλμάτων και  ανάπτυξη κώδικα. Μην τα χρησιμοποιείτε σε ενεργές ιστοσελίδες !"
+
+#: includes/class-wcpdf-settings-callbacks.php:36
+msgid "These are used for the (optional) footer columns in the <em>Modern (Premium)</em> template, but can also be used for other elements in your custom template"
+msgstr "Αυτά χρησιμοποιούνται για τις ( προαιρετικές ) στήλες στο υποσέλιδο εντός <em>Modern (Premium)</em> προτύπου, αλλά θα μπορούσαν επίσης να χρησιμοποιηθούν και για άλλα στοιχεία του προσαρμοσμένου προτύπου (template)"
+
+#: includes/class-wcpdf-admin.php:259 includes/class-wcpdf-main.php:1111
+#: includes/documents/class-wcpdf-invoice.php:283
+#: includes/views/setup-wizard/display-options.php:81
+msgid "Invoice Number"
+msgstr "Αριθμός Τιμολογίου"
+
+#: includes/class-wcpdf-frontend.php:146
+msgid "Download invoice (PDF)"
+msgstr "Μεταφόρτωση Τιμολογίου (PDF)"
+
+#: includes/class-wcpdf-admin.php:372
+msgid "Create PDF"
+msgstr "Δημιουργία PDF"
+
+#: includes/class-wcpdf-admin.php:521
+#: includes/documents/class-wcpdf-invoice.php:508
+msgid "Invoice Date:"
+msgstr "Ημερομηνία Τιμολογίου:"
+
+#: includes/views/wcpdf-extensions.php:6
+msgid "Check out these premium extensions!"
+msgstr "Ελέγξτε αυτές τις  premium επεκτάσεις!"
+
+#: includes/views/wcpdf-extensions.php:7
+msgid "click items to read more"
+msgstr "κάντε κλικ στα στοιχεία για να διαβάσετε περισσότερα"
+
+#: includes/views/wcpdf-extensions.php:43
+msgid "Go Pro: Proforma invoices, credit notes (=refunds) & more!"
+msgstr "Go Pro : προτιμολόγια, πιστωτικά σημειώματα (=επιστροφές) & ακόμα περισσότερα !"
+
+#: includes/views/wcpdf-extensions.php:17
+#: includes/views/wcpdf-extensions.php:47
+msgid "Email/print/download <b>PDF Credit Notes & Proforma invoices</b>"
+msgstr "Στείλε Email /Εκτύπωσε /Κάνε λήψη <b>PDF Credit Notes & Proforma invoices</b>"
+
+#: includes/views/wcpdf-extensions.php:18
+#: includes/views/wcpdf-extensions.php:48
+msgid "Send out a separate <b>notification email</b> with (or without) PDF invoices/packing slips, for example to a drop-shipper or a supplier."
+msgstr "Στείλε ένα ξεχωριστό <b>notification email</b> με ( ή χωρίς ) τιμολόγια PDF / δελτία αποστολής, για παράδειγμα σε έναν drop-shipper ή σε έναν προμηθευτή ."
+
+#: includes/views/wcpdf-extensions.php:19
+#: includes/views/wcpdf-extensions.php:49
+msgid "Attach <b>up to 3 static files</b> (for example a terms & conditions document) to the WooCommerce emails of your choice."
+msgstr "Επισυνάψτε  <b>up to 3 static files</b> (π.χ. ένα έγγραφο όρων προϋποθέσεων) στο ηλεκτρονικο ταχυδρομείο του WooCommerce της επιλογής σου"
+
+#: includes/views/wcpdf-extensions.php:20
+#: includes/views/wcpdf-extensions.php:50
+msgid "Use <b>separate numbering systems</b> and/or format for proforma invoices and credit notes or utilize the main invoice numbering system"
+msgstr "Χρησιμοποιήστε <b>separate numbering systems</b> ή/και τύπο προτιμολογίων, πιστωτικών σημειώματων ή χρησιμοποιήστε το βασικό σύστημα αρίθμησης τιμολογίων"
+
+#: includes/views/wcpdf-extensions.php:21
+#: includes/views/wcpdf-extensions.php:51
+msgid "<b>Customize</b> the <b>shipping & billing address</b> format to include additional custom fields, font sizes etc. without the need to create a custom template."
+msgstr "<b>Customize</b> the <b>shipping & billing address</b> μορφοποίηση ώστε να συμπεριληφθούν πρόσθετα προσαρμοσμένα πεδία, μεγέθη γραμματοσειρών κλπ χωρίς να χρειάζεται να δημιουργηθούν εκ νέου προσαρμοσμένα πρότυπα"
+
+#: includes/views/wcpdf-extensions.php:22
+#: includes/views/wcpdf-extensions.php:52
+msgid "Use the plugin in multilingual <b>WPML</b> setups"
+msgstr "Χρησιμοποιήστε το plugin σε πολύγλωσσες <b>WPML</b> ρυθμίσεις"
+
+#: includes/class-wcpdf-admin.php:661
+msgid "h"
+msgstr "h"
+
+#: includes/class-wcpdf-admin.php:661
+msgid "m"
+msgstr "m"
+
+#: includes/class-wcpdf-settings-general.php:241
+msgid "This is footer column 3 in the <i>Modern (Premium)</i> template"
+msgstr "Αυτη είναι η στήλη 3 στην υποσημείωση εντος του <i>Modern (Premium)</i> template"
+
+#: includes/class-wcpdf-settings-debug.php:396
+msgid "Debug settings"
+msgstr "Ρυθμίσεις εντοπισμού σφαλμάτων"
+
+#: templates/Simple/invoice.php:40 templates/Simple/packing-slip.php:53
+msgid "Billing Address:"
+msgstr "Διεύθυνση χρέωσης:"
+
+#: templates/Simple/invoice.php:141 templates/Simple/packing-slip.php:123
+msgid "Customer Notes"
+msgstr "Σημειώσεις πελάτη"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:100
+#: includes/documents/abstract-wcpdf-order-document-methods.php:198
+msgid "N/A"
+msgstr "N/A"
+
+#: templates/Simple/invoice.php:82 templates/Simple/packing-slip.php:70
+msgid "Order Date:"
+msgstr "Ημερομηνία παραγγελίας:"
+
+#: templates/Simple/invoice.php:78 templates/Simple/packing-slip.php:66
+msgid "Order Number:"
+msgstr "Αριθμός παραγγελίας:"
+
+#: includes/documents/class-wcpdf-invoice.php:335
+msgid "Padding"
+msgstr "Περιθώριο"
+
+#: templates/Simple/invoice.php:87
+msgid "Payment Method:"
+msgstr "Τρόπος Πληρωμής:"
+
+#: templates/Simple/invoice.php:104
+msgid "Price"
+msgstr "Τιμή"
+
+#: templates/Simple/invoice.php:102 templates/Simple/packing-slip.php:90
+msgid "Product"
+msgstr "Προϊόν"
+
+#: templates/Simple/invoice.php:103 templates/Simple/packing-slip.php:91
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: templates/Simple/invoice.php:116 templates/Simple/packing-slip.php:103
+msgid "SKU"
+msgstr "SKU"
+
+#: templates/Simple/invoice.php:117 templates/Simple/packing-slip.php:104
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:958
+msgid "Shipping"
+msgstr "Μεταφορικά"
+
+#: languages/strings.php:6
+msgid "Shipping method"
+msgstr "Μέθοδος αποστολής"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:933
+msgid "Subtotal"
+msgstr "Υποσύνολο"
+
+#: includes/class-wcpdf-settings.php:387
+#: includes/documents/abstract-wcpdf-order-document-methods.php:1067
+msgid "Total"
+msgstr "Σύνολο"
+
+#: languages/strings.php:3
+msgid "VAT"
+msgstr "ΦΠΑ"
+
+#: templates/Simple/invoice.php:118 templates/Simple/packing-slip.php:105
+msgid "Weight:"
+msgstr "Βάρος:"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:997
+msgid "Discount"
+msgstr "Έκπτωση"
+
+#: languages/strings.php:5
+msgid "Payment method"
+msgstr "Τρόπος πληρωμής"
+
+#: templates/Simple/packing-slip.php:40
+msgid "Shipping Address:"
+msgstr "Διεύθυνση αποστολής:"
+
+#: templates/Simple/invoice.php:53
+msgid "Ship To:"
+msgstr "Αποστολή σε:"
+
+#: includes/documents/abstract-wcpdf-order-document-methods.php:1064
+msgid "Total ex. VAT"
+msgstr "Σύνολο χωρίς ΦΠΑ"
+
+#: languages/strings.php:4
+msgid "Tax rate"
+msgstr "Ποσοστό ΦΠΑ"
+
+#: templates/Simple/packing-slip.php:75
+msgid "Shipping Method:"
+msgstr "Τρόπος Αποστολής:"
+
+#. translators: email link
+#: includes/views/wcpdf-extensions.php:112
+msgid "For custom templates, contact us at %s."
+msgstr "Για custom templates, επικοινωνήστε μαζί μας στο %s."
+
+#: includes/views/wcpdf-extensions.php:31
+msgid "This extension conveniently uploads all the invoices (and other pdf documents from the professional extension) that are emailed to your customers to Dropbox. The best way to keep your invoice administration up to date!"
+msgstr "Αυτή η επέκταση αναλαμβάνει να ανεβάσει εύκολα όλα τα τιμολόγια (και άλλα έγγραφα PDF από την professional extension) που έχουν αποσταλεί με email στους πελάτες σας, στο Dropbox. Ο καλύτερος τρόπος για να διατηρείτε ενημερωμένη τη βάση τιμολογίων σας!"
+
+#: includes/views/wcpdf-extensions.php:26
+#: includes/views/wcpdf-extensions.php:107
+msgid "Completely customize the invoice contents (prices, taxes, thumbnails) to your needs with a drag & drop customizer"
+msgstr "Προσαρμόστε πλήρως τα περιεχόμενα του τιμολογίου (τιμές, φόροι, thumbnails) στις ανάγκες σας με ένα εργαλείο προσαρμογής drag & drop"
+
+#: includes/views/wcpdf-extensions.php:90
+msgid "WooCommerce Automatic Order Printing"
+msgstr "WooCommerce Automatic Order Printing"
+
+#: includes/views/wcpdf-extensions.php:89
+msgid "Check out the WooCommerce Automatic Order Printing extension from our partners at Simba Hosting"
+msgstr "Δείτε την επέκταση WooCommerce Automatic Order Printing από τους συνεργάτες μας στην Simba Hosting"
+
+#: includes/views/wcpdf-extensions.php:24
+#: includes/views/wcpdf-extensions.php:104
+msgid "Advanced, customizable templates"
+msgstr "Επαγγελματικά, επεξεργάσιμα templates"
+
+#. Description of the plugin
+msgid "Create, print & email PDF invoices & packing slips for WooCommerce orders."
+msgstr "Δημιουργήστε, εκτυπώστε & στείλτε με email τιμολόγια PDF & δελτία αποστολής για τις παραγγελίες στο WooCommerce."
+
+#: includes/class-wcpdf-admin.php:518
+#: includes/documents/class-wcpdf-invoice.php:500
+msgid "Invoice Number:"
+msgstr "Αριθμός παραστατικού:"
+
+#: includes/views/wcpdf-extensions.php:27
+#: includes/views/wcpdf-extensions.php:108
+msgid "Two extra stylish premade templates (Modern & Business)"
+msgstr "Δύο επιπλέον κομψά έτοιμα templates (Modern & Business)"
+
+#: includes/views/wcpdf-extensions.php:83
+msgid "Automatically send new orders or packing slips to your printer, as soon as the customer orders!"
+msgstr "Αυτόματη αποστολή νέων παραγγελιών ή δελτίων αποστολής στον εκτυπωτή σας, μόλις μπει η παραγγελία του πελάτη!"
+
+#. translators: Premium Templates link
+#: includes/views/wcpdf-extensions.php:110
+msgid "Check out the Premium PDF Invoice & Packing Slips templates at %s."
+msgstr "Ρίξτε μια ματιά στα Premium πρότυπα του PDF Invoice & Packing Slips στη διεύθυνση %s."
+
+#. Author URI of the plugin
+msgid "https://www.wpovernight.com"
+msgstr "https://www.wpovernight.com"
+
+#. translators: document type
+#: includes/documents/class-wcpdf-invoice.php:343
+msgid "<strong>Note</strong>: if you have already created a custom %s number format with a filter, the above settings will be ignored."
+msgstr "<strong>Σημείωση</strong>: Αν έχετε ήδη δημιουργήσει μια συγκεκριμένη %s μορφή αριθμού τιμολογίου  με κάποιο φίλτρο, οι παραπάνω ρυθμίσεις θα αγνοηθούν."
+
+#: includes/class-wcpdf-assets.php:113 includes/class-wcpdf-settings.php:97
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class-wcpdf-main.php:267 includes/class-wcpdf-main.php:283
+#: includes/class-wcpdf-main.php:288 includes/class-wcpdf-main.php:374
+#: includes/class-wcpdf-settings.php:206 includes/class-wcpdf-settings.php:328
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για να έχετε πρόσβαση σε αυτήν τη σελίδα."
+
+#: includes/class-wcpdf-settings-general.php:82
+#: includes/views/setup-wizard/paper-format.php:13
+msgid "A4"
+msgstr "Α4"
+
+#: includes/class-wcpdf-settings-general.php:83
+#: includes/views/setup-wizard/paper-format.php:14
+msgid "Letter"
+msgstr "Letter"
+
+#: includes/documents/class-wcpdf-invoice.php:370
+msgid "Never"
+msgstr "Ποτέ"
+
+#: includes/documents/class-wcpdf-invoice.php:216
+#: includes/documents/class-wcpdf-invoice.php:369
+#: includes/documents/class-wcpdf-packing-slip.php:104
+#: includes/views/setup-wizard/display-options.php:22
+msgid "Always"
+msgstr "Πάντα"
+
+#: includes/documents/class-wcpdf-invoice.php:360
+msgid "Allow My Account invoice download"
+msgstr "Να επιτρέπεται στον Λογαριασμό μου η λήψη τιμολογίων"
+
+#: includes/documents/class-wcpdf-invoice.php:407
+msgid "Disable for free orders"
+msgstr "Απενεργοποίηση για δωρεάν προϊόντα"
+
+#: includes/documents/class-wcpdf-invoice.php:367
+msgid "Only when an invoice is already created/emailed"
+msgstr "Μόνο όταν ένα Τιμολόγιο έχει ήδη δημιουργηθεί / ταχυδρομηθεί(email)"
+
+#: includes/documents/class-wcpdf-invoice.php:368
+msgid "Only for specific order statuses (define below)"
+msgstr "Μόνο για συγκεκριμένη καταστάση παραγγελιών (όρισε παρακάτω)"
+
+#: includes/documents/class-wcpdf-invoice.php:385
+msgid "Enable invoice number column in the orders list"
+msgstr "Ενεργοποίηση αριθμού στήλης τιμολογίου στη λίστα παραγγελιών"
+
+#: includes/class-wcpdf-settings-general.php:61
+msgid "Choose a template"
+msgstr "Επέλεξε πρότυπο"
+
+#: includes/class-wcpdf-settings-general.php:75
+msgid "Paper size"
+msgstr "Μέγεθος χαρτιού"
+
+#. translators: directory path
+#: includes/documents/class-wcpdf-invoice.php:186
+msgid "It looks like the temp folder (<code>%s</code>) is not writable, check the permissions for this folder! Without having write access to this folder, the plugin will not be able to email invoices."
+msgstr "o φάκελοw temp (<code>%s</code>) δεν είναι εγγράψιμος , ελέγξτε τα δικαιώματα για αυτόν το φάκελο ! Χωρίς δικαιώματα πρόσβασης εγγραφής σε αυτόν το φάκελο , το plugin δεν θα είναι σε θέση να ταχυδρομήσει τιμολόγια ."
+
+#: includes/class-wcpdf-settings-general.php:46
+msgid "How do you want to view the PDF?"
+msgstr "Πώς θέλετε να δείτε το PDF;"
+
+#: includes/class-wcpdf-settings-general.php:53
+msgid "Download the PDF"
+msgstr "Κατεβάστε το PDF"
+
+#: includes/class-wcpdf-settings-general.php:54
+msgid "Open the PDF in a new browser tab/window"
+msgstr "Ανοίξτε το PDF σε νέα καρτέλα/ παράθυρο του προγράμματος περιήγησης "
+
+#: includes/class-wcpdf-settings-debug.php:360
+#: includes/class-wcpdf-settings.php:162
+msgid "General"
+msgstr "Γενικά"
+
+#: includes/class-wcpdf-settings-general.php:40
+msgid "General settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: includes/class-wcpdf-settings.php:173 includes/views/dompdf-status.php:275
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/class-wcpdf-settings.php:84 includes/class-wcpdf-settings.php:85
+msgid "PDF Invoices"
+msgstr "PDF Invoices"
+
+#: includes/documents/class-wcpdf-packing-slip.php:43
+msgid "packing-slip"
+msgid_plural "packing-slips"
+msgstr[0] "δελτίο αποστολής"
+msgstr[1] "δελτία αποστολής"
+
+#: includes/class-wcpdf-main.php:301
+msgid "Some of the export parameters are missing."
+msgstr "Κάποιες παράμετροι εξαγωγής δεν υπάρχουν."
+
+#. translators: document type
+#: includes/documents/class-wcpdf-invoice.php:112
+#: includes/documents/class-wcpdf-invoice.php:322
+#: includes/documents/class-wcpdf-invoice.php:331
+#: includes/documents/class-wcpdf-invoice.php:339
+#: includes/documents/class-wcpdf-invoice.php:343
+msgid "invoice"
+msgid_plural "invoices"
+msgstr[0] "παραστατικό"
+msgstr[1] "παραστατικά"
+
+#. translators: 1,2. template paths
+#: includes/class-wcpdf-settings-general.php:69
+msgid "Want to use your own template? Copy all the files from <code>%1$s</code> to your (child) theme in <code>%2$s</code> to customize them"
+msgstr "Θέλετε να χρησιμοποιήσετε το δικό σας πρότυπο; Αντιγράψτε όλα τα αρχεία από το <code>%1$s</code> στο (child) θέμα εντος του <code>%2$s</code> για να τροποποιήσετε το θέμα"
