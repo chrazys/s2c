@@ -1,0 +1,924 @@
+# Translation of Plugins - Code Snippets - Development (trunk) in Greek
+# This file is distributed under the same license as the Plugins - Code Snippets - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-22 10:36:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Code Snippets - Development (trunk)\n"
+
+#. translators: %s: snippet type name
+#: php/views/manage.php:72
+msgid "Learn more about %s &rarr;"
+msgstr "Μάθετε περισσότερα για το %s &rarr;"
+
+#: php/views/manage.php:64
+msgid "content snippets"
+msgstr "αποσπάσματα περιεχομένου"
+
+#: php/views/manage.php:66
+msgid "javascript snippets"
+msgstr "αποσπάσματα javascript"
+
+#: php/views/manage.php:65
+msgid "style snippets"
+msgstr "αποσπάσματα στυλ"
+
+#: php/views/manage.php:90
+msgid "Search Snippets"
+msgstr "Αποσπάσματα Αναζήτησης"
+
+#: php/views/manage.php:21
+msgid "All Snippets"
+msgstr "Όλα τα αποσπάσματα"
+
+#: php/settings/settings-fields.php:193
+msgid "Highlight Active Line"
+msgstr "Επισήμανση ενεργής γραμμής"
+
+#: php/settings/settings-fields.php:87
+msgid "Name (Z-A)"
+msgstr "Όνομα (Z-A)"
+
+#: php/settings/settings-fields.php:86
+msgid "Name (A-Z)"
+msgstr "Όνομα (A-Z)"
+
+#: php/settings/settings-fields.php:89
+msgid "Modified (oldest first)"
+msgstr "Ημ/νία τροποποίησης (παλαιότερα πρώτα)"
+
+#: php/settings/settings-fields.php:88
+msgid "Modified (latest first)"
+msgstr "Ημ/νία τροποποίησης (πιο πρόσφατα πρώτα)"
+
+#: php/settings/settings-fields.php:81
+msgid "Snippets List Order"
+msgstr "Σειρά λίστας αποσπασμάτων"
+
+#: php/settings/settings-fields.php:83
+msgid "Default way to order snippets on the All Snippets admin menu."
+msgstr "Προεπιλεγμένος τρόπος ταξινόμησης των αποσπασμάτων στο διαχειριστικό μενού όλων των αποσπασμάτων."
+
+#: php/front-end/mce-strings.php:28
+msgid "Show line numbers"
+msgstr "Εμφάνιση αριθμών γραμμής"
+
+#: php/front-end/mce-strings.php:26
+msgid "Snippet Source Code"
+msgstr "Πηγαίος Κώδικας Αποσπασμάτων"
+
+#: php/front-end/mce-strings.php:27
+msgid "Insert Snippet Source"
+msgstr "Εισαγωγή Πηγής Αποσπάσματος"
+
+#: php/front-end/mce-strings.php:22
+msgid "Run PHP code"
+msgstr "Εκτέλεση κώδικα PHP"
+
+#: php/front-end/mce-strings.php:24
+msgid "Enable shortcodes"
+msgstr "Ενεργοποίηση shortcodes"
+
+#: php/front-end/mce-strings.php:21
+msgid "Snippet"
+msgstr "Απόσπασμα"
+
+#: php/front-end/mce-strings.php:23
+msgid "Apply formatting"
+msgstr "Εφαρμογή μορφοποίησης"
+
+#: php/front-end/mce-strings.php:20
+msgid "Insert Content Snippet"
+msgstr "Εισαγωγή Αποσπάσματος Περιεχομένου"
+
+#: php/front-end/mce-strings.php:19
+msgid "Content Snippet"
+msgstr "Απόσπασμα Περιεχομένου"
+
+#: php/settings/settings-fields.php:194
+msgid "Highlight the line that is currently being edited."
+msgstr "Επισημάνετε τη γραμμή που βρίσκεται αυτή την στιγμή υπό τροποποίηση."
+
+#: php/class-plugin.php:296 php/class-snippet.php:187 dist/edit.js:2
+msgid "Scripts"
+msgstr "Scripts"
+
+#: php/class-plugin.php:295 php/class-snippet.php:186 dist/edit.js:2
+msgid "Styles"
+msgstr "Στυλ"
+
+#: php/class-plugin.php:294 php/class-snippet.php:185 php/class-snippet.php:311
+#: dist/edit.js:2
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: php/class-plugin.php:293 php/class-snippet.php:184 dist/edit.js:2
+msgid "Functions"
+msgstr "Συναρτήσεις"
+
+#. translators: %s: snippet title.
+#: php/class-list-table.php:1297
+msgid "%s [CLONE]"
+msgstr "%s [CLONE]"
+
+#: php/class-list-table.php:866
+msgid "It looks like you don't have any snippets of this type."
+msgstr "Φαίνεται πως δεν έχετε κανένα απόσπασμα αυτού του τύπου."
+
+#: php/class-list-table.php:407
+msgid "Type"
+msgstr "Τύπος"
+
+#. translators: %s: formatted last modified date
+#: php/class-admin.php:194
+msgid "Last modified %s"
+msgstr "Τελευταία τροποποίηση %s"
+
+#: php/class-admin.php:211
+msgid "Active Snippets"
+msgstr "Ενεργά Αποσπάσματα"
+
+#: php/class-admin.php:160
+msgid "Upgrade to Pro"
+msgstr "Αναβαθμίστε σε Pro"
+
+#: php/class-admin.php:159
+msgid "Upgrade to Code Snippets Pro"
+msgstr "Αναβαθμίστε σε Code Snippets Pro"
+
+#: php/class-admin.php:147
+msgid "Find out how to get support with Code Snippets"
+msgstr "Μάθετε πώς να λάβετε υποστήριξη με τα Code Snippets"
+
+#: php/class-admin.php:141
+msgid "Find out more about Code Snippets"
+msgstr "Μάθετε περισσότερα για τα Code Snippets"
+
+#: php/class-admin.php:97
+msgid "Change plugin settings"
+msgstr "Αλλαγή ρυθμίσεων προσθέτου"
+
+#. translators: %d: snippet ID.
+#: php/front-end/class-frontend.php:194
+msgid "Could not load snippet with an invalid ID: %d."
+msgstr "Δεν ήταν δυνατή η φόρτωση αποσπάσματος με άκυρο ID: %d."
+
+#: php/class-upgrade.php:200
+msgid "Shortcode for inserting the current year into a post or page.."
+msgstr "Shortcode για την εισαγωγή του τρέχοντος έτους σε ένα άρθρο ή σελίδα."
+
+#: php/class-upgrade.php:198
+msgid "Current year"
+msgstr "Τρέχον έτος"
+
+#: php/class-upgrade.php:194
+msgid "Allows smiley conversion in obscure places."
+msgstr "Επιτρέπει τη μετατροπή σε smiley σε όλα τα σημεία."
+
+#: php/class-upgrade.php:185
+msgid "Disable admin bar"
+msgstr "Απενεργοποίηση διαχειριστικής μπάρας"
+
+#: php/class-upgrade.php:181
+msgid "Makes sure that image and file uploads have lowercase filenames."
+msgstr "Διασφαλίζει ότι οι μεταφορτώσεις εικόνων και αρχείων έχουν όνομα με πεζούς χαρακτήρες."
+
+#: php/class-upgrade.php:179
+msgid "Make upload filenames lowercase"
+msgstr "Κάντε τα ονόματα αρχείων μεταφόρτωσης πεζά"
+
+#: php/class-upgrade.php:192
+msgid "Allow smilies"
+msgstr "Επιτρέψτε τα smilies"
+
+#: php/class-upgrade.php:175
+msgid "This is a sample snippet. Feel free to use it, edit it, or remove it."
+msgstr "Αυτό είναι ένα δείγμα αποσπάσματος. Μπορείτε να το χρησιμοποιήσετε, να το επεξεργαστείτε ή να το αφαιρέσετε."
+
+#. translators: 1: snippet name, 2: snippet edit link
+#: php/front-end/class-frontend.php:288
+msgid "<strong>%1$s</strong> is currently inactive. You can <a href=\"%2$s\">edit this snippet</a> to activate it and make it visible. This message will not appear in the published post."
+msgstr "Το απόσμασμα <strong>%1$s</strong> είναι επί του παρόντος ανενεργό. Μπορείτε να <a href=\"%2$s\">επεξεργαστείτε αυτό το απόσπασμα</a> για να το ενεργοποιήσετε και να το κάνετε ορατό. Αυτό το μήνυμα δεν θα εμφανιστεί στο δημοσιευμένο άρθρο."
+
+#: php/class-snippet.php:323
+msgid "Footer styles"
+msgstr "Στυλ υποσέλιδου"
+
+#: php/class-snippet.php:319
+msgid "Front-end styles"
+msgstr "Στυλ Front-end"
+
+#: php/class-snippet.php:317
+msgid "Admin styles"
+msgstr "Στυλ Διαχειριστή"
+
+#: php/class-snippet.php:315
+msgid "Footer content"
+msgstr "Περιεχόμενο υποσέλιδου"
+
+#: php/class-snippet.php:309
+msgid "Single-use function"
+msgstr "Συνάρτηση μίας χρήσης"
+
+#: php/class-snippet.php:307
+msgid "Front-end function"
+msgstr "Συνάρτηση Front-end"
+
+#: php/class-snippet.php:305
+msgid "Admin function"
+msgstr "Συνάρτηση διαχειριστικού"
+
+#: php/class-snippet.php:303
+msgid "Global function"
+msgstr "Καθολική συνάρτηση"
+
+#: php/class-plugin.php:322
+msgid "Content snippets are bits of reusable PHP and HTML content that can be inserted into posts and pages."
+msgstr "Τα αποσπάσματα περιεχομένου είναι κομμάτια επαναχρησιμοποιήσιμου κώδικα PHP και HTML που μπορούν να εισαχθούν σε άρθρα και σελίδες."
+
+#: php/class-plugin.php:321
+msgid "Function snippets are run on your site as if there were in a plugin or theme functions.php file."
+msgstr "Τα αποσπάσματα συναρτήσεων εκτελούνται στον ιστότοπό σας σαν να είναι μέσα σε ένα πρόσθετο ή στο functions.php του θέματος."
+
+#: php/class-contextual-help.php:129
+msgid "You can find out how to enable safe mode in the <a href=\"https://help.codesnippets.pro/article/12-safe-mode\">Code Snippets Pro Docs</a>."
+msgstr "Μπορείτε να μάθετε πώς να ενεργοποιήσετε την ασφαλή λειτουργία στην τεκμηρίωση του <a href=\"https://help.codesnippets.pro/article/12-safe-mode\">Code Snippets Pro</a>."
+
+#: php/class-contextual-help.php:144
+msgid "If you're not sure about the types of snippets you can add, take a look at the <a href=\"https://help.codesnippets.pro/collection/2-adding-snippets\">Code Snippets Pro Docs</a> for inspiration."
+msgstr "Αν δεν είστε σίγουροι για τους τύπους των αποσπασμάτων που μπορείτε να προσθέσετε, ρίξτε μια ματιά στην τεκμηρίωση του <a href=\"https://help.codesnippets.pro/collection/2-adding-snippets\">Code Snippets Pro</a> για έμπνευση."
+
+#: php/class-contextual-help.php:128
+msgid "If something goes wrong with a snippet, and you can't use WordPress, you can cause all snippets to stop executing by turning on <strong>safe mode</strong>."
+msgstr "Αν κάτι πάει στραβά με ένα απόσπασμα και δεν μπορείτε να χρησιμοποιήσετε το WordPress, μπορείτε να προκαλέσετε τη διακοπή εκτέλεσης όλων των αποσπασμάτων ενεργοποιώντας την <strong>ασφαλή λειτουργία</strong>."
+
+#. translators: %s: Update PHP URL.
+#: php/deactivation-notice.php:38
+msgid "Please <a href=\"%s\">upgrade your server to the latest version of PHP</a> to continue using Code Snippets."
+msgstr "Παρακαλούμε <a href=\"%s\">αναβαθμίστε τον διακομιστή (server) σας στην τελευταία έκδοση της PHP</a> για να συνεχίσετε να χρησιμοποιείτε τα Code Snippets."
+
+#: php/class-snippet.php:313
+msgid "Head content"
+msgstr "Περιεχόμενο κεφαλίδας"
+
+#: php/class-snippet.php:321
+msgid "Head styles"
+msgstr "Στυλ κεφαλίδας"
+
+#: php/class-upgrade.php:187
+msgid "Turns off the WordPress admin bar for everyone except administrators."
+msgstr "Απενεργοποιεί τη μπάρα διαχείρισης του WordPress για όλους εκτός από τους διαχειριστές."
+
+#: php/views/manage.php:63
+msgid "function snippets"
+msgstr "αποσπάσματα συναρτήσεων"
+
+#. translators: %s: required PHP version number.
+#: php/deactivation-notice.php:30
+msgid "Code Snippets requires PHP %s or later."
+msgstr "Το Code Snippets απαιτεί την έκδοση %s ή νεότερη έκδοση της PHP."
+
+#: php/deactivation-notice.php:48
+msgid "Another version of Code Snippets appears to be installed. Deactivating this version."
+msgstr "Μια άλλη έκδοση του Code Snippets φαίνεται να είναι ήδη εγκαταστημένη. Απενεργοποίηση αυτής της έκδοσης."
+
+#. translators: %s: Human-readable time difference.
+#: php/class-snippet.php:423
+msgid "%s ago"
+msgstr "%s πριν"
+
+#: php/class-list-table.php:410
+msgid "Modified"
+msgstr "Τροποποιήθηκε"
+
+#. translators: 1: search query, 2: line number.
+#: php/class-list-table.php:1234
+msgid " for &ldquo;%1$s&rdquo; on line %2$d"
+msgstr " για &ldquo;%1$s&rdquo; στη γραμμή %2$d"
+
+#. translators: %s: PHP identifier name
+#: php/class-validator.php:220
+msgid "Cannot redeclare %s."
+msgstr "Δεν είναι δυνατή η εκ νέου δήλωση %s."
+
+#: php/class-snippet.php:425
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: php/class-validator.php:195
+msgid "Parse error: syntax error, unexpected end of snippet."
+msgstr "Σφάλμα ανάλυσης: σφάλμα σύνταξης, μη αναμενόμενο τέλος αποσπάσματος."
+
+#: php/class-validator.php:258
+msgid "Parse error: syntax error, unexpected end of snippet"
+msgstr "Σφάλμα ανάλυσης: σφάλμα σύνταξης, μη αναμενόμενο τέλος αποσπάσματος"
+
+#. translators: %s: PHP interface name
+#: php/class-validator.php:216
+msgid "Cannot redeclare interface %s."
+msgstr "Δεν είναι δυνατή η εκ νέου δήλωση της διεπαφής %s."
+
+#. translators: %s: PHP function name
+#: php/class-validator.php:208
+msgid "Cannot redeclare function %s."
+msgstr "Δεν είναι δυνατή η εκ νέου δήλωση της λειτουργίας %s."
+
+#. translators: %s: PHP class name
+#: php/class-validator.php:212
+msgid "Cannot redeclare class %s."
+msgstr "Δεν είναι δυνατή η εκ νέου δήλωση της τάξης %s."
+
+#. translators: 1: date format, 2: time format.
+#: php/class-snippet.php:433
+msgctxt "date and time format"
+msgid "%1$s \\a\\t %2$s"
+msgstr "%1$s \\a\\t %2$s"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://codesnippets.pro"
+msgstr "https://codesnippets.pro"
+
+#: php/class-list-table.php:858
+msgid "No snippets were found matching the current search query. Please enter a new query or use the \"Clear Filters\" button above."
+msgstr "Δεν βρέθηκαν αποσπάσματα που να αντιστοιχούν στο τρέχον αίτημα αναζήτησης. Εισαγάγετε ένα νέο αίτημα ή χρησιμοποιήστε το κουμπί \"Εκκαθάριση Φίλτρων\" παραπάνω."
+
+#: php/admin-menus/class-edit-menu.php:37
+msgctxt "menu label"
+msgid "Edit Snippet"
+msgstr "Επεξεργασία Αποσπάσματος"
+
+#: php/class-contextual-help.php:168
+msgid "Here you can load snippets from a code snippets export file into the database alongside existing snippets."
+msgstr "Εδώ μπορείτε να φορτώσετε αποσπάσματα από ένα αρχείο εξαγωγής του Code Snippets στη βάση δεδομένων, χωρίς να επηρεαστούν τα υπάρχοντα αποσπάσματα."
+
+#: php/class-contextual-help.php:143
+msgid "Here you can add a new snippet, or edit an existing one."
+msgstr "Εδώ μπορείτε να προσθέσετε ένα νέο απόσπασμα ή να επεξεργαστείτε ένα υπάρχον."
+
+#: php/class-contextual-help.php:120
+msgid "Here you can manage your existing snippets and perform tasks on them such as activating, deactivating, deleting and exporting."
+msgstr "Εδώ μπορείτε να διαχειριστείτε τα υπάρχοντα αποσπάσματά σας και να εκτελέσετε εργασίες σε αυτά, όπως ενεργοποίηση, απενεργοποίηση, διαγραφή και εξαγωγή."
+
+#: php/class-contextual-help.php:109
+msgid "Snippets are similar to plugins - they both extend and expand the functionality of WordPress. Snippets are more light-weight, just a few lines of code, and do not put as much load on your server. "
+msgstr "Τα Αποσπάσματα είναι παρόμοια με τα plugins - και τα δύο επεκτείνουν τη λειτουργικότητα του WordPress. Τα Αποσπάσματα είναι πιο ελαφριά, με λίγες μόνο γραμμές κώδικα, και δεν επιβαρύνουν τόσο πολύ τον διακομιστή σας. "
+
+#: php/admin-menus/class-admin-menu.php:204
+#: php/admin-menus/class-settings-menu.php:131
+msgctxt "snippets"
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: php/admin-menus/class-admin-menu.php:213
+msgctxt "snippets"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: php/admin-menus/class-manage-menu.php:96
+msgctxt "tools submenu label"
+msgid "Snippets"
+msgstr "Αποσπάσματα"
+
+#. translators: %s: tag name.
+#: php/class-list-table.php:1250
+msgid " in tag &ldquo;%s&rdquo;"
+msgstr " στην ετικέτα &ldquo;%s&rdquo;"
+
+#. translators: %s: search query.
+#: php/class-list-table.php:1243
+msgid " for &ldquo;%s&rdquo;"
+msgstr " για &ldquo;%s&rdquo;"
+
+#: php/views/import.php:83
+msgid "Upload Files"
+msgstr "Μεταφόρτωση Αρχείων"
+
+#: php/admin-menus/class-admin-menu.php:210
+msgctxt "snippets"
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: php/class-list-table.php:242 php/class-list-table.php:461
+msgid "Clone"
+msgstr "Κλωνοποίηση"
+
+#: php/class-list-table.php:411 php/settings/settings-fields.php:85
+#: dist/edit.js:2
+msgid "Priority"
+msgstr "Προτεραιότητα"
+
+#: php/admin-menus/class-manage-menu.php:167
+msgid "Selected snippets <strong>cloned</strong>."
+msgstr "Τα επιλεγμένα αποσπάσματα <strong>κλωνοποιήθηκαν</strong>."
+
+#: php/admin-menus/class-manage-menu.php:166
+msgid "Snippet <strong>cloned</strong>."
+msgstr "Το απόσπασμα <strong>κλωνοποιήθηκε</strong>."
+
+#: php/class-list-table.php:864
+msgid "It looks like you don't have any snippets."
+msgstr "Φαίνεται ότι δεν έχετε αποσπάσματα."
+
+#: php/admin-menus/class-settings-menu.php:47
+msgid "All settings have been reset to their defaults."
+msgstr "Όλες οι ρυθμίσεις έχουν επαναφερθεί στις προεπιλογές τους."
+
+#: php/admin-menus/class-settings-menu.php:162
+msgid "Reset to Default"
+msgstr "Επαναφορά στο Προκαθορισμένο"
+
+#: php/views/import.php:54
+msgid "Duplicate Snippets"
+msgstr "Διπλότυπα Αποσπάσματα"
+
+#: php/settings/settings-fields.php:102
+msgid "Complete Uninstall"
+msgstr "Ολοκληρώστε την απεγκατάσταση"
+
+#: php/settings/settings-fields.php:104
+msgid "When the plugin is deleted from the Plugins menu, also delete all snippets and plugin settings."
+msgstr "Όταν το πρόσθετο διαγραφεί από τη λίστα των προσθέτων, να διαγράφουν επίσης όλα τα αποσπάσματα και οι ρυθμίσεις του πρόσθετου."
+
+#: php/admin-menus/class-import-menu.php:137
+msgid "No snippets were imported."
+msgstr "Δεν εισήχθησαν αποσπάσματα."
+
+#: php/class-admin.php:76
+msgid "Snippets &raquo; Settings"
+msgstr "Αποσπάσματα &raquo; Ρυθμίσεις"
+
+#: php/admin-menus/class-manage-menu.php:159
+msgid "Snippet <strong>executed</strong>."
+msgstr "Το απόσπασμα <strong>εκτελέστηκε</strong>."
+
+#: php/class-list-table.php:282
+msgid "Run Once"
+msgstr "Εκτελέστε μία φορά"
+
+#: php/views/import.php:57
+msgid "What should happen if an existing snippet is found with an identical name to an imported snippet?"
+msgstr "Τι θα συμβεί εάν ένα υπάρχον απόσπασμα βρεθεί με το ίδιο όνομα με ένα εισαγμένο απόσπασμα;"
+
+#: php/views/import.php:37
+msgid "Upload one or more Code Snippets export files and the snippets will be imported."
+msgstr "Ανεβάστε ένα ή περισσότερα αρχεία εξαγωγής από το Code Snippets και τα αποσπάσματα θα εισαχθούν."
+
+#: php/views/import.php:71
+msgid "Replace any existing snippets with a newly imported snippet of the same name."
+msgstr "Αντικαταστήστε τυχόν υπάρχοντα αποσπάσματα με ένα νέο απόσπασμα με το ίδιο όνομα."
+
+#: php/views/import.php:64
+msgid "Ignore any duplicate snippets: import all snippets from the file regardless and leave all existing snippets unchanged."
+msgstr "Αγνοήστε τυχόν διπλά αποσπάσματα: εισαγάγετε όλα τα αποσπάσματα από το αρχείο ανεξάρτητα και αφήστε αμετάβλητα όλα τα υπάρχοντα αποσπάσματα."
+
+#: php/views/import.php:78
+msgid "Do not import any duplicate snippets; leave all existing snippets unchanged."
+msgstr "Μην εισάγετε διπλά αποσπάσματα, αφήστε αμετάβλητα όλα τα υπάρχοντα αποσπάσματα."
+
+#: php/views/import.php:86
+msgid "Choose one or more Code Snippets (.xml or .json) files to upload, then click \"Upload files and import\"."
+msgstr "Επιλέξτε ένα ή περισσότερα αρχεία από το Code Snippets (.xml ή .json) για μεταφόρτωση και, στη συνέχεια, κάντε κλικ στην επιλογή \"Μεταφόρτωση αρχείων και εισαγωγή\"."
+
+#: php/class-list-table.php:873
+msgid "Perhaps you would like to add a new one?"
+msgstr "Ίσως θέλετε να προσθέσετε ένα;"
+
+#: php/class-list-table.php:235
+msgid "Network Only"
+msgstr "Μόνο σε Δίκτυο"
+
+#: php/class-list-table.php:233
+msgid "Network Active"
+msgstr "Ενεργό Δίκτυο"
+
+#: php/admin-menus/class-edit-menu.php:66
+msgctxt "menu label"
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: php/admin-menus/class-import-menu.php:19
+msgctxt "menu label"
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: php/class-list-table.php:257
+msgid "You are about to permanently delete the selected item."
+msgstr "Πρόκειται να διαγράψετε οριστικά το επιλεγμένο στοιχείο."
+
+#: php/admin-menus/class-settings-menu.php:25
+msgctxt "menu label"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: php/admin-menus/class-manage-menu.php:58
+msgctxt "top-level menu label"
+msgid "Snippets"
+msgstr "Αποσπάσματα"
+
+#: php/admin-menus/class-manage-menu.php:27
+msgctxt "menu label"
+msgid "All Snippets"
+msgstr "Όλα τα Αποσπάσματα"
+
+#: php/class-list-table.php:258
+msgid "'Cancel' to stop, 'OK' to delete."
+msgstr "\"Ακύρωση\" για διακοπή, \"OK\" για διαγραφή."
+
+#: php/class-admin.php:275
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: php/class-contextual-help.php:62
+msgid "Plugin Website"
+msgstr "Ιστοσελίδα Πρόσθετου"
+
+#: php/settings/settings-fields.php:117
+msgid "Theme"
+msgstr "Θέμα"
+
+#: php/class-admin.php:148
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: php/admin-menus/class-settings-menu.php:127 php/class-admin.php:98
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: php/class-list-table.php:288 php/class-list-table.php:459 dist/edit.js:2
+#: dist/manage.js:1
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: php/class-list-table.php:241
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: php/class-list-table.php:406 dist/edit.js:2
+msgid "Name"
+msgstr "Όνομα"
+
+#: php/class-list-table.php:252 php/class-list-table.php:464 dist/edit.js:2
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: php/class-list-table.php:619
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: php/class-list-table.php:288 php/class-list-table.php:460 dist/edit.js:2
+#: dist/manage.js:1
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: php/class-list-table.php:604
+msgid "Show all tags"
+msgstr "Εμφάνιση όλων των ετικετών"
+
+#: php/settings/settings-fields.php:177
+msgid "Auto Close Brackets"
+msgstr "Αυτόματο Κλείσιμο Αγκυλών"
+
+#: php/settings/settings-fields.php:179
+msgid "Auto-close brackets and quotes when typed."
+msgstr "Αυτόματο κλείσιμο αγκυλών και εισαγωγικών κατά την πληκτρολόγηση."
+
+#: php/settings/settings.php:135
+msgid "General"
+msgstr "Γενικά"
+
+#: php/settings/settings-fields.php:52
+msgid "Activate by Default"
+msgstr "Ενεργοποίηση από Προεπιλογή"
+
+#: php/class-list-table.php:412
+msgid "ID"
+msgstr "ID"
+
+#: php/class-list-table.php:627
+msgid "Clear List"
+msgstr "Καθαρισμός Λίστας"
+
+#: php/class-list-table.php:1226
+msgid "Search results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: php/admin-menus/class-admin-menu.php:207
+#: php/admin-menus/class-settings-menu.php:132 dist/edit.js:2
+msgctxt "snippet"
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: php/views/import.php:91
+msgid "Choose files from your computer:"
+msgstr "Επιλέξτε αρχεία από τον υπολογιστή σας:"
+
+#. translators: %s: size in bytes
+#: php/views/import.php:94
+msgid "(Maximum size: %s)"
+msgstr "(Μέγιστο μέγεθος: %s)"
+
+#: php/views/import.php:105
+msgid "Upload files and import"
+msgstr "Μεταφόρτωση αρχείων και εισαγωγή"
+
+#: php/settings/settings-fields.php:153
+msgid "Wrap Lines"
+msgstr "Αναδίπλωση Γραμμών"
+
+#: php/class-contextual-help.php:65
+msgid "For more information:"
+msgstr "Για περισσότερες πληροφορίες:"
+
+#: php/class-list-table.php:243 php/class-list-table.php:463 dist/edit.js:2
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: php/class-contextual-help.php:181
+msgid "Exporting"
+msgstr "Εξαγωγή"
+
+#: php/class-contextual-help.php:173
+msgid "Importing"
+msgstr "Εισαγωγή"
+
+#: php/class-contextual-help.php:125
+msgid "Safe Mode"
+msgstr "Ασφαλής Λειτουργία"
+
+#: php/class-contextual-help.php:118 php/class-contextual-help.php:140
+#: php/class-contextual-help.php:166
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: php/class-admin.php:142
+msgid "About"
+msgstr "Σχετικά"
+
+#. translators: %s: total number of inactive snippets.
+#: php/class-list-table.php:519
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] "Ανενεργό <span class=\"count\">(%s)</span>"
+msgstr[1] "Ανενεργά <span class=\"count\">(%s)</span>"
+
+#. translators: %s: total number of active snippets.
+#: php/class-list-table.php:511
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Ενεργό <span class=\"count\">(%s)</span>"
+msgstr[1] "Ενεργά <span class=\"count\">(%s)</span>"
+
+#: php/class-list-table.php:84
+msgid "Snippets per page"
+msgstr "Αποσπάσματα ανά σελίδα"
+
+#: php/class-admin.php:107
+msgid "Manage your existing snippets"
+msgstr "Διαχειριστείτε τα υπάρχοντα αποσπάσματά σας"
+
+#: php/admin-menus/class-settings-menu.php:26
+msgid "Snippets Settings"
+msgstr "Ρυθμίσεις Αποσπασμάτων"
+
+#: php/admin-menus/class-manage-menu.php:165
+msgid "Selected snippets <strong>deleted</strong>."
+msgstr "Τα επιλεγμένα αποσπάσματα <strong>διαγράφηκαν</strong>."
+
+#: php/admin-menus/class-manage-menu.php:164
+msgid "Snippet <strong>deleted</strong>."
+msgstr "Το απόσπασμα <strong>διαγράφηκε</strong>."
+
+#: php/admin-menus/class-manage-menu.php:163
+msgid "Selected snippets <strong>deactivated</strong>."
+msgstr "Τα επιλεγμένα αποσπάσματα <strong>απενεργοποιήθηκαν</strong>."
+
+#: php/class-contextual-help.php:61
+msgid "Support Forum"
+msgstr "Φόρουμ Υποστήριξης"
+
+#: php/settings/settings-fields.php:61
+msgid "Show snippet tags on admin pages."
+msgstr "Εμφάνιση των ετικετών snippet στις σελίδες διαχείρισης."
+
+#: php/settings/settings-fields.php:68
+msgid "Show snippet descriptions on admin pages."
+msgstr "Εμφάνιση των περιγραφών snippet στις σελίδες διαχείρισης."
+
+#. Description of the plugin
+msgid "An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!"
+msgstr "Ένας εύκολος, γρήγορος και απλός τρόπος εκτέλεσης αποσπασμάτων κώδικα στον ιστότοπό σας. Δεν χρειάζεται να επεξεργαστείτε ξανά το αρχείο functions.php του θέματός σας!"
+
+#: php/class-admin.php:258
+msgid "<strong>Have feedback on Code Snippets?</strong> Please take the time to answer a short survey on how you use this plugin and what you'd like to see changed or added in the future."
+msgstr "<strong>Θέλετε να σχολιάσετε το Code Snippets;</strong> Αφιερώστε λίγο χρόνο για να απαντήσετε σε μια σύντομη έρευνα σχετικά με τον τρόπο χρήσης αυτού του πρόσθετου και τι θέλετε να αλλάξουμε ή να προσθέσουμε στο μέλλον."
+
+#: php/class-admin.php:257
+msgid "Take the survey now"
+msgstr "Κάντε την έρευνα τώρα"
+
+#: php/class-contextual-help.php:59
+msgid "About Plugin"
+msgstr "Σχετικά με το πρόσθετο"
+
+#: php/class-contextual-help.php:60
+msgid "FAQ"
+msgstr "Συχνές ερωτήσεις"
+
+#. translators: %d: snippet ID.
+#: php/class-snippet.php:246
+msgid "Untitled #%d"
+msgstr "Χωρίς τίτλο #%d"
+
+#: php/admin-menus/class-settings-menu.php:230 php/settings/settings.php:269
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: php/class-contextual-help.php:152
+msgid "You need to fill out the name and code fields for your snippet to be added. While the description field will add more information about how your snippet works, what is does and where you found it, it is completely optional."
+msgstr "Πρέπει να συμπληρώσετε τα πεδία ονόματος και κώδικα για να προστεθεί το απόσπασμα. Ενώ το πεδίο περιγραφής θα προσθέσει περισσότερες πληροφορίες σχετικά με τον τρόπο λειτουργίας του αποσπάσματος, τι κάνει και πού το βρήκατε, είναι εντελώς προαιρετικό."
+
+#. translators: %s: URL to Manage Snippets admin menu
+#: php/class-contextual-help.php:183
+msgid "You can save your snippets to a code snippets export file using the <a href=\"%s\">Manage Snippets</a> page."
+msgstr "Μπορείτε να αποθηκεύσετε τα αποσπάσματα σε ένα αρχείο εξαγωγής κώδικα για αποσπάσματα χρησιμοποιώντας την σελίδα <a href=\"%s\">Manage Snippets</a>."
+
+#: php/class-contextual-help.php:174
+msgid "You can load your snippets from a code snippets export file using this page."
+msgstr "Μπορείτε να φορτώσετε τα αποσπάσματα από ένα αρχείο εξαγωγής κώδικα για αποσπάσματα χρησιμοποιώντας αυτήν τη σελίδα."
+
+#: php/settings/settings-fields.php:135
+msgid "The width of a tab character."
+msgstr "Το πλάτος ενός χαρακτήρα καρτέλας."
+
+#: php/settings/settings-fields.php:133
+msgid "Tab Size"
+msgstr "Μέγεθος Καρτέλας"
+
+#: php/settings/settings-fields.php:171
+msgid "Show line numbers to the left of the editor."
+msgstr "Εμφάνιση αριθμών γραμμών στα αριστερά του προγράμματος επεξεργασίας."
+
+#: php/class-list-table.php:333
+msgid "Shared on Network"
+msgstr "Κοινή χρήση στο Δίκτυο"
+
+#. translators: %s: total number of recently activated snippets.
+#: php/class-list-table.php:527
+msgid "Recently Active <span class=\"count\">(%s)</span>"
+msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Πρόσφατα Ενεργό <span class=\"count\">(%s)</span>"
+msgstr[1] "Πρόσφατα Ενεργά <span class=\"count\">(%s)</span>"
+
+#: php/class-list-table.php:287 php/class-list-table.php:460
+msgid "Network Deactivate"
+msgstr "Απενεργοποίηση Δικτύου"
+
+#: php/class-contextual-help.php:153
+msgid "Please be sure to check that your snippet is valid PHP code and will not produce errors before adding it through this page. While doing so will not become active straight away, it will help to minimise the chance of a faulty snippet becoming active on your site."
+msgstr "Βεβαιωθείτε ότι έχετε ελέγξει ότι το απόσπασμα είναι έγκυρος κώδικας PHP και δεν θα προκαλέσει σφάλματα πριν το προσθέσετε στην σελίδα. Αν και αυτό δεν θα ενεργοποιηθεί αμέσως, θα συμβάλει στην ελαχιστοποίηση της πιθανότητας ενός ελαττωματικού αποσπάσματος να ενεργοποιηθεί στον ιστότοπό σας."
+
+#: php/class-list-table.php:287 php/class-list-table.php:459
+msgid "Network Activate"
+msgstr "Ενεργοποίηση Δικτύου"
+
+#: php/settings/settings-fields.php:54
+msgid "Make the 'Save and Activate' button the default action when saving a snippet."
+msgstr "Κάντε το κουμπί \"Αποθήκευση και ενεργοποίηση\" ως προεπιλεγμένη ενέργεια κατά την αποθήκευση ενός αποσπάσματος."
+
+#: php/settings/settings-fields.php:169
+msgid "Line Numbers"
+msgstr "Αριθμός Γραμμών"
+
+#: php/settings/settings-fields.php:125
+msgid "Indent With Tabs"
+msgstr "Εσοχή Με Καρτέλες"
+
+#: php/settings/settings-fields.php:143
+msgid "Indent Unit"
+msgstr "Μονάδα Εσοχής"
+
+#. translators: %s: URL to Snippets admin menu
+#: php/class-contextual-help.php:176
+msgid "Imported snippets will be added to the database along with your existing snippets. Regardless of whether the snippets were active on the previous site, imported snippets are always inactive until activated using the <a href=\"%s\">Manage Snippets</a> page."
+msgstr "Τα εισαγόμενα αποσπάσματα θα προστεθούν στη βάση δεδομένων μαζί με τα υπάρχοντα αποσπάσματα. Ανεξάρτητα από το εάν τα αποσπάσματα ήταν ενεργά στον προηγούμενο ιστότοπο, τα εισαγόμενα αποσπάσματα είναι πάντα ανενεργά έως ότου ενεργοποιηθούν χρησιμοποιώντας την σελίδα <a href=\"%s\">Manage Snippets</a>."
+
+#: php/settings/settings-fields.php:185
+msgid "Highlight Selection Matches"
+msgstr "Επισήμανση Ζευγαριών Επιλογής"
+
+#: php/settings/settings-fields.php:186
+msgid "Highlight all instances of a currently selected word."
+msgstr "Επισημάνετε όλες τις εμφανίσεις μιας τρέχουσας επιλεγμένης λέξης."
+
+#: php/settings/settings-fields.php:59
+msgid "Enable Snippet Tags"
+msgstr "Ενεργοποίηση Ετικετών Αποσπάσματος"
+
+#: php/settings/settings-fields.php:66
+msgid "Enable Snippet Descriptions"
+msgstr "Ενεργοποίηση Περιγραφών Αποσπάσματος"
+
+#: php/settings/settings.php:178
+msgid "Editor Preview"
+msgstr "Προεπισκόπηση Προγράμματος Επεξεργασίας"
+
+#: php/settings/settings.php:136
+msgid "Code Editor"
+msgstr "Κώδικας Προγράμματος Επεξεργασίας"
+
+#: php/class-list-table.php:1259
+msgid "Clear Filters"
+msgstr "Εκκαθάριση Φίλτρων"
+
+#: php/class-contextual-help.php:127
+msgid "Be sure to check your snippets for errors before you activate them, as a faulty snippet could bring your whole blog down. If your site starts doing strange things, deactivate all your snippets and activate them one at a time."
+msgstr "Βεβαιωθείτε ότι έχετε ελέγξει τα αποσπάσματα για σφάλματα πριν τα ενεργοποιήσετε, καθώς ένα ελαττωματικό απόσπσμα θα μπορούσε να καταστρέψει ολόκληρο το ιστολόγιό σας. Εάν ο ιστότοπός σας αρχίζει να κάνει παράξενα πράγματα, απενεργοποιήστε όλα τα αποσπάσματα και ενεργοποιήστε τα ένα ένα κάθε φορά."
+
+#. translators: %s: total number of snippets.
+#: php/class-list-table.php:503
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Όλο <span class=\"count\">(%s)</span>"
+msgstr[1] "Όλα <span class=\"count\">(%s)</span>"
+
+#. translators: %s: link to snippets admin menu
+#: php/views/import.php:42
+msgid "Afterwards, you will need to visit the <a href=\"%s\">All Snippets</a> page to activate the imported snippets."
+msgstr "Στη συνέχεια, θα πρέπει να επισκεφθείτε την σελίδα <a href=\"%s\">All Snippets</a> για να ενεργοποιήσετε τα εισαγόμενα αποσπάσματα."
+
+#: php/class-contextual-help.php:150
+msgid "Adding Snippets"
+msgstr "Προσθέτοντας Αποσπάσματα"
+
+#: php/class-list-table.php:409 dist/edit.js:2
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: php/class-list-table.php:408 dist/edit.js:2
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: php/admin-menus/class-import-menu.php:127
+msgid "An error occurred when processing the import files."
+msgstr "Παρουσιάστηκε σφάλμα κατά την επεξεργασία των αρχείων εισαγωγής."
+
+#: php/admin-menus/class-manage-menu.php:28
+#: php/admin-menus/class-manage-menu.php:57
+#: php/admin-menus/class-manage-menu.php:95 php/class-admin.php:75
+#: php/class-admin.php:108 php/views/manage.php:31
+msgid "Snippets"
+msgstr "Αποσπάσματα"
+
+#: php/admin-menus/class-import-menu.php:20 php/views/import.php:24
+msgid "Import Snippets"
+msgstr "Εισαγωγή Αποσπασμάτων"
+
+#: php/admin-menus/class-edit-menu.php:67 dist/edit.js:2
+msgid "Add New Snippet"
+msgstr "Προσθήκη Νέου Αποσπάσματος"
+
+#: php/admin-menus/class-edit-menu.php:38 dist/edit.js:2
+msgid "Edit Snippet"
+msgstr "Επεξεργασία Αποσπάσματος"
+
+#: php/admin-menus/class-manage-menu.php:162
+msgid "Snippet <strong>deactivated</strong>."
+msgstr "Το απόσπασμα <strong>απενεργοποιήθηκε</strong>."
+
+#: php/admin-menus/class-manage-menu.php:161
+msgid "Selected snippets <strong>activated</strong>."
+msgstr "Τα επιλεγμένα αποσπάσματα <strong>ενεργοποιήθηκαν</strong>."
+
+#: php/admin-menus/class-manage-menu.php:160
+msgid "Snippet <strong>activated</strong>."
+msgstr "Το απόσπασμα <strong>ενεργοποιήθηκε</strong>."
+
+#: php/admin-menus/class-admin-menu.php:161
+msgid "You are not authorized to access this page."
+msgstr "Δεν έχετε εξουσιοδότηση για πρόσβαση σε αυτήν τη σελίδα."
+
+#. translators: 1: amount of snippets imported, 2: link to Snippets menu
+#: php/admin-menus/class-import-menu.php:141
+msgid "Successfully imported <strong>%1$d</strong> snippet. <a href=\"%2$s\">Have fun!</a>"
+msgid_plural "Successfully imported <strong>%1$d</strong> snippets. <a href=\"%2$s\">Have fun!</a>"
+msgstr[0] "Η εισαγωγή ολοκληρώθηκε με επιτυχία <strong>%1$d</strong> απόσπασμα. <a href=\"%2$s\">Καλά να περνάτε!</a>"
+msgstr[1] "Η εισαγωγή ολοκληρώθηκε με επιτυχία <strong>%1$d</strong> αποσπάσματα. <a href=\"%2$s\">Καλά να περνάτε!</a>"
+
+#: php/admin-menus/class-import-menu.php:115
+msgid "Import snippets from a code snippets export file"
+msgstr "Εισαγωγή αποσπασμάτων από ένα αρχείο εξαγωγής αποσπασμάτων κώδικα"
+
+#: php/admin-menus/class-manage-menu.php:151
+msgid "<strong>Warning:</strong> Safe mode is active and snippets will not execute! Remove the <code>CODE_SNIPPETS_SAFE_MODE</code> constant from <code>wp-config.php</code> to turn off safe mode. <a href=\"https://help.codesnippets.pro/article/12-safe-mode\" target=\"_blank\">Help</a>"
+msgstr "<strong>Προειδοποίηση:</strong> Η ασφαλής λειτουργία είναι ενεργή και τα αποσπάσματα δεν θα εκτελεστούν! Καταργήστε την σταθερά <code>CODE_SNIPPETS_SAFE_MODE</code> από το <code>wp-config.php</code> για να απενεργοποιήσετε την ασφαλή λειτουργία. <a href=\"https://help.codesnippets.pro/article/12-safe-mode\" target=\"_blank\">Βοήθεια</a>"
+
+#. Plugin Name of the plugin
+#: php/admin-menus/class-import-menu.php:114
+msgid "Code Snippets"
+msgstr "Code Snippets"
